@@ -1,0 +1,6 @@
+"-----------------------------7e3c92730500\r\n"
+"Content-Disposition: form-data; name=\"files\"; filename=\"123.txt\"\r\n"
+"Content-Type: text/plain\r\n"
+"\r\n"
+"fsdfdsf\r\n"
+"-----------------------------7e3c92730500--\r\n"
