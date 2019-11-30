@@ -1,0 +1,13 @@
+POST /en-us/silentauth?silentauth=msa&wa=wsignin1.0 HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&checkda=1&ct=1575134293&rver=7.1.6819.0&wp=MBI_SSL&wreply=https%3a%2f%2fwww.microsoft.com%2fen-us%2fsilentauth%3fsilentauth%3dmsa&lc=1033&id=74335&aadredir=1
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Host: www.microsoft.com
+Content-Length: 1529
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: display-culture=ru-RU; MC1=GUID=4f79a563cafe4b0b97078081f92eb2d3&HASH=4f79&LV=201908&V=4&LU=1565083987726; MS-CV=CbAz9VlSrka+pKnG.2; MS0=1ce046f672fe4cd8a5350321c2871688
+

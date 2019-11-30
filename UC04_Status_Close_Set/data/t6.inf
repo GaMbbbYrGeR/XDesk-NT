@@ -1,0 +1,11 @@
+[t6]
+FileName1=t6.html
+URL1=https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&checkda=1&ct=1575134293&rver=7.1.6819.0&wp=MBI_SSL&wreply=https%3a%2f%2fwww.microsoft.com%2fen-us%2fsilentauth%3fsilentauth%3dmsa&lc=1033&id=74335&aadredir=1
+Total=1
+RequestHeaderFile=t6_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t6_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_6.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

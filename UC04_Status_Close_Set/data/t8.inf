@@ -1,0 +1,13 @@
+[t8]
+FileName1=t8.html
+URL1=https://www.microsoft.com/en-us/silentauth?silentauth=msa&wa=wsignin1.0
+Total=2
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=t8_RequestBody.txt
+ResponseHeaderFile=t8_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_8.xml
+FileName2=t8_jquery-1.11.1.min.html
+URL2=https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js
+[ProtocolInfo]
+ProtocolId=QTWeb

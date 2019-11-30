@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Expires: Sat, 30 Nov 2019 17:17:19 GMT
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+P3P: CP="DSP CUR OTPi IND OTRi ONL FIN"
+Set-Cookie: uaid=149815b3da914a6d49bb82178a682bc4; domain=login.live.com; Secure; path=/; SameSite=None; HttpOnly
+Set-Cookie: MSPRequ=id=N&lt=1575134299&co=1; domain=login.live.com; Secure; path=/; SameSite=None; HttpOnly
+Referrer-Policy: strict-origin-when-cross-origin
+PPServer: PPV: 30 H: BY1PPF098F02AF5 V: 0
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+X-XSS-Protection: 1; mode=block
+Date: Sat, 30 Nov 2019 17:18:19 GMT
+Content-Length: 4293
+

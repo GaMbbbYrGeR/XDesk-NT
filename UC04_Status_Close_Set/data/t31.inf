@@ -1,0 +1,13 @@
+[t31]
+FileName1=t31.json
+URL1=http://learning2.pflb.ru:56902/api/task/countByState/
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_31.xml
+RequestHeaderFile=t31_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t31_ResponseHeader.txt
+FileName2=t31_149759.pdf
+URL2=http://learning2.pflb.ru:56902/api/report/149759?timeZoneOffset=3
+[ProtocolInfo]
+ProtocolId=QTWeb

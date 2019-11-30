@@ -1,0 +1,13 @@
+[t21]
+FileName1=t21_checkLogin.json
+URL1=http://learning2.pflb.ru:56902/api/checkLogin
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_21.xml
+RequestHeaderFile=t21_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t21_ResponseHeader.txt
+FileName2=t21_ticketComment.html
+URL2=http://learning2.pflb.ru:56902/tpl/support/ticketComment.dust
+[ProtocolInfo]
+ProtocolId=QTWeb

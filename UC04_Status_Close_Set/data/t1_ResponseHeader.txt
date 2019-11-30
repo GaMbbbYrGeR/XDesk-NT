@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Server: nginx/1.17.6
+Date: Sat, 30 Nov 2019 17:17:50 GMT
+Content-Type: image/x-icon
+Content-Length: 1150
+Connection: keep-alive
+Keep-Alive: timeout=5
+Etag: "985b900732f0a910420e09e190a1484f"
+Last-Modified: Thu, 10 Jan 2019 06:04:51 GMT
+X-Nginx-Request-Id: 7887d349b80a0bb7
+Expires: Thu, 31 Dec 2037 23:55:55 GMT
+Cache-Control: max-age=315360000
+Cache-Control: public
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=43200000; includeSubDomains;
+Timing-Allow-Origin: *
+Vary: Accept-Encoding
+Accept-Ranges: bytes
+

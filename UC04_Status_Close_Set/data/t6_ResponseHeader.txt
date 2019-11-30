@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Expires: Sat, 30 Nov 2019 17:17:19 GMT
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+P3P: CP="DSP CUR OTPi IND OTRi ONL FIN"
+Set-Cookie: uaid=54b271827758441596829b60e61f530f; domain=login.live.com; Secure; path=/; SameSite=None; HttpOnly
+Set-Cookie: MSPRequ=id=74335&lt=1575134299&co=1; domain=login.live.com; Secure; path=/; SameSite=None; HttpOnly
+Set-Cookie: PPAuth=CX4mG6GS5iHxZO1IL*rVMqSqlSB2GIg0WCiARqC86v2Mg75rTxYPtjtD!Si9mFM00NktlETv4CPOUU3h8xBNkId6xBPBJ0VrCPZvXILISaFBNsb4Szort*54D7yq*0Do7eYjGBYVCAuGmyyOA7!!I5idq1bWwqHb87SrmiGyIpfTURDby3OGSmWmmYtAn7YTaAlHsulVj4H5i3*b6*GKFLMdySSZRt7F1bgqKhEUVj2scsOA0pNPNT3tXiexhEooDKjS0q1eetg3huLX5ZC0X*LMNBKeZEZEAoY5bcCYOiO6R8Dk1mzuEU*QCRMwsiCADf7PDQ7A*Ta5tF8!X7pdEbdw*5FwNHRjBqcHdiZA3Gql; domain=login.live.com; Secure; path=/; SameSite=None; HttpOnly
+Set-Cookie: PPLState=1; domain=.live.com; Secure; path=/; SameSite=None
+Set-Cookie: MSPShared= ; HTTPOnly; domain=login.live.com;path=/;Expires=Thu, 30-Oct-1980 16:00:00 GMT; Secure; SameSite=None
+Set-Cookie: MSPCID=db1464e5f9178ac3; HTTPOnly; domain=login.live.com;path=/;Expires=Wed, 30-Dec-2037 16:00:00 GMT; Secure; SameSite=None
+Set-Cookie: WLOpt=credtype=1&act=[1]; domain=login.live.com;path=/;Expires=Wed, 30-Dec-2037 16:00:00 GMT; Secure; SameSite=None
+Set-Cookie: MSPAuth=3UAuraUxdDItxvcqtCUtnM4hav1LxzCSlnYMmnvedyYuNxdSK2Ehft!DYF62Lqb6IhDVENkkFqbPpJbmCJpu!YqbdQUs5YqukUfTwaUpRjzf4PU8!kY5lTasIdMm7UK1xx5bR7J3N0e99MbWXLAFJCwA$$; domain=.live.com; Secure; path=/; SameSite=None; HttpOnly
+Set-Cookie: MSPProf=3G4kRXrkNEib7mr8A2EiyWpU!vu9fkbrIgrCqAI0amlzbkSIpwAFN8PFK1BMyeVzd289flUodUFrWXt1DXxBLSwMNQ1xgysfBy54HBDqzRJYe3C97gmfmX8A7Z4zsmHl5w*FJTGise3VZf5IDP9RPe1STE8YMQauYz973aoPMtl7o2TyNwYcWkLM*KRWwgFq3Zk558gHrdZRxUshluzb5CFg$$; domain=.live.com; Secure; path=/; SameSite=None; HttpOnly
+Set-Cookie: NAP=V=1.9&E=170e&C=dup_y0b9kdi4sbJj645K3SbXfPZ9eVLgno0uufvuj3ABUvxPn3c0tA&W=1; domain=.live.com;path=/;Expires=Tue, 10-Mar-2020 00:18:19 GMT; Secure; SameSite=None
+Set-Cookie: ANON=A=E93FBFA289F45112D0541693FFFFFFFF&E=16ee&W=1; domain=.live.com;path=/;Expires=Thu, 18-Jun-2020 00:18:19 GMT; Secure; SameSite=None
+Set-Cookie: MSPVis=$74335; HTTPOnly; domain=login.live.com;path=/; Secure; SameSite=None
+Set-Cookie: WLSSC=EgArAgMAAAAEgAAADAABMH0jf6ts2K/2DmeM7C2Uz5vNz78IDJc7mNLhZoHLiZiI+8TidbW2Eb1oLIBgDAeayG2GJsTzW5mL/1JTRC/r/AFlAq1YWAjrNaT4OPFl/Yv9KjbPr5BFQzgJErPaYCd9AYSOXQFL3jwlPrycROpWeCSwQxLV/NysLLOnFBeibtZgTpmzgHcIP0y/KejqdlxbFJbqB9RPHnKDs5VnHb17DEGGxtdZMi7E7/6Igvv5Noq/mVIRO3GLScDNlUxiYMQx4ytDFa6EvJmRG0Rk7fr8sIJjNoZDIH6Jxf6vCxj0XAwVLWYXtsXA+SvKEc1cBs5FJkXbWo75tmoL6ee6CAqKwBoBewAaAQAAAwDv6ucIW6TiXXCrQV0QJwAAChCgABAaAGtpcmlsbC5rdXp2aWV0c292QG1haWwucnUAXAAAJmtpcmlsbC5rdXp2aWV0c292JW1haWwucnVAcGFzc3BvcnQuY29tAAAABlJVAAAAAAAABBkCAACNhVVAEAZBAAdLaXJpbGwuAAFLAAAAAAAAAAAAAAAAAAAAAAAA+ReKw9sUZOUAAFuk4l1kSVleAAAAAAAAAAAAAAAADgAxODguMzIuMTYyLjMzAAQBAAAAAMAYAOyw6MUEAQAAAAAAAAAAAAAAAAAAAACP5rceXFXCCQGAGADprN3D/r8YAF5xMU4AAAAAAAAAAAAAAAAAAP8/IwCah92CAAAAAAMA; domain=.live.com; Secure; path=/; SameSite=None; HttpOnly
+Set-Cookie: JSH=2$kirill.kuzvietsov%40mail.ru$Kirill.$K; domain=login.live.com;path=/; Secure; SameSite=None
+Set-Cookie: MSPSoftVis=@72198325083833620@:@; domain=login.live.com; Secure; path=/; SameSite=None; HttpOnly
+Referrer-Policy: strict-origin-when-cross-origin
+Set-Cookie: MSPBack=0; domain=login.live.com; Secure; path=/; SameSite=None
+PPServer: PPV: 30 H: BY1PPF098F02AF5 V: 0
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+X-XSS-Protection: 1; mode=block
+Date: Sat, 30 Nov 2019 17:18:19 GMT
+Content-Length: 1516
+

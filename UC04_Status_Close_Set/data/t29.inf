@@ -1,0 +1,15 @@
+[t29]
+FileName1=t29_4.html
+URL1=http://learning2.pflb.ru:56902/api/ticket/countByState/4
+Total=3
+ContentType=application/octet-stream
+SnapshotXmlFile=snapshot_29.xml
+RequestHeaderFile=t29_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t29_ResponseHeader.txt
+FileName2=t29_tickets.html
+URL2=http://learning2.pflb.ru:56902/engineer/tickets/tickets.dust
+FileName3=t29_tickets.html
+URL3=http://learning2.pflb.ru:56902/engineer/tickets/tickets.js
+[ProtocolInfo]
+ProtocolId=QTWeb

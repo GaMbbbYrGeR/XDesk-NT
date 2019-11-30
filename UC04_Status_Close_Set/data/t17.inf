@@ -1,0 +1,15 @@
+[t17]
+FileName1=t17.json
+URL1=http://learning2.pflb.ru:56902/api/ticket/?state=-1,0,1,5&page=0&size=10
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_17.xml
+RequestHeaderFile=t17_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t17_ResponseHeader.txt
+FileName2=t17_tasks.html
+URL2=http://learning2.pflb.ru:56902/engineer/tasks/tasks.dust
+FileName3=t17_tasks.html
+URL3=http://learning2.pflb.ru:56902/engineer/tasks/tasks.js
+[ProtocolInfo]
+ProtocolId=QTWeb

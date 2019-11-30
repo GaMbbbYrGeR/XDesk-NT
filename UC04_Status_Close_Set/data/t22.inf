@@ -1,0 +1,15 @@
+[t22]
+FileName1=t22.json
+URL1=http://learning2.pflb.ru:56902/api/ticket/149759/comment/
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_22.xml
+RequestHeaderFile=t22_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t22_ResponseHeader.txt
+FileName2=t22_ticket.html
+URL2=http://learning2.pflb.ru:56902/engineer/ticket/ticket.dust
+FileName3=t22_ticket.html
+URL3=http://learning2.pflb.ru:56902/engineer/ticket/ticket.js
+[ProtocolInfo]
+ProtocolId=QTWeb
