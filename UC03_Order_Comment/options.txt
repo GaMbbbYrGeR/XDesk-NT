@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IG:\Новая папка\UC03_Order_Comment
--IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--eg:\новая папка\uc03_order_comment\\logfile.log
-g:\новая папка\uc03_order_comment\\combined_UC03_Order_Comment.c
-g:\новая папка\uc03_order_comment\\pre_cci.c

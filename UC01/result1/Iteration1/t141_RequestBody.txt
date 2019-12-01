@@ -1,1 +1,0 @@
-"{"text":"IOS","header":"It's me","ticketStateId":0,"serviceId":"2797","shopId":"-2"}"
