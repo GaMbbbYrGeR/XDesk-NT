@@ -1,0 +1,12 @@
+Virtual User Script started at: 01.12.2019 22:15:01
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (авг 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Runtime Settings file: "G:\Работа\Git XDesk\XDesk-NT\UC01_create_task\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(3): web_url("{host}:{port}") started  	[MsgId: MMSG-26355]
+vuser_init.c(3): Notify: Parameter Substitution: parameter "host" =  "learning2.pflb.ru"
+vuser_init.c(3): Notify: Parameter Substitution: parameter "port" =  "56902"
+vuser_init.c(3): Error -27298: The "URL" argument (number 9) is specified more than once  	[MsgId: MERR-27298]
+vuser_init.c(3): web_url("{host}:{port}") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+Abort was called from an action.

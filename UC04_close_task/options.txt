@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IG:\Новая папка\Git XDesk\XDesk-NT\UC04_Status_Close_Set
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-eg:\новая папка\git xdesk\xdesk-nt\uc04_status_close_set\\logfile.log
+g:\новая папка\git xdesk\xdesk-nt\uc04_status_close_set\\combined_UC04_Status_Close_Set.c
+g:\новая папка\git xdesk\xdesk-nt\uc04_status_close_set\\pre_cci.c
