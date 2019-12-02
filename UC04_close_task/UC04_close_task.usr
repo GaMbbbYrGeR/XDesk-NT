@@ -53,7 +53,7 @@ vuser_end=cci
 [TransactionsOrder]
 Order="UC04_TC01_login__*delimiter*__UC04_TC02_All_Tasks__*delimiter*__UC04_TC03_Choose_Task__*delimiter*__UC04_TC04_In_Incedent__*delimiter*__UC04_TC05_Close_Incedent__*delimiter*__UC04_TC06_logout"
 [StateManagement]
-LastReplayStatus=1
+LastReplayStatus=2
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1

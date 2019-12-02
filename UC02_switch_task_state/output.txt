@@ -1,3 +1,13 @@
-Warning: Extension java_int.dll reports error -1 on call to function ExtPerThreadInitialize
-Error: Vuser failed to initialize extension java_int.dll.
+Virtual User Script started at: 02.12.2019 12:09:51
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Actions.
+JDBC Connection Successful
+Ending action Actions.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
 Vuser Terminated.

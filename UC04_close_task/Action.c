@@ -94,12 +94,13 @@ Action()
 		"EncType=", 
 		LAST);
 
-	web_url("learning2.pflb.ru:56902_2", 
+	web_url("/_2", 
 		"URL=http://{Host}:{Port}/", 
 		"Resource=0", 
 		"Referer=http://{Host}:{Port}/", 
 		"Snapshot=t26.inf", 
 		"Mode=HTML", 
+		EXTRARES,
 		"Url=/js/core/jqueryformplugin.js?_=1575134476345", ENDITEM, 
 		"Url=/engineer/wrapper/wrapper.dust", ENDITEM, 
 		"Url=/engineer/wrapper/wrapper.js", ENDITEM, 

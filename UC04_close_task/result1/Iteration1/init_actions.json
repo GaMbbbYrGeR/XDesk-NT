@@ -1,7 +1,58 @@
 [
     {
         "actionName": "vuser_init",
-        "steps": [],
-        "transactions": []
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: login",
+                "infFile": "t1.inf",
+                "time": 1575278242338
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: learning2.pflb.ru:56902",
+                "infFile": "t3.inf",
+                "time": 1575278243091
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: checkLogin",
+                "infFile": "t4.inf",
+                "time": 1575278243171
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: info",
+                "infFile": "t5.inf",
+                "time": 1575278243282
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: 4",
+                "infFile": "t6.inf",
+                "time": 1575278243373
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: countByState",
+                "infFile": "t7.inf",
+                "time": 1575278243458
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: ticket",
+                "infFile": "t8.inf",
+                "time": 1575278244604
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC04_TC01_login",
+                "rawStartTime": 1575278242339,
+                "rawEndTime": 1575278244605,
+                "thinkTime": 0.0,
+                "wastedTime": 0.22828435897827149
+            }
+        ]
     }
 ]

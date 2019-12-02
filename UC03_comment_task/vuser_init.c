@@ -10,6 +10,7 @@ vuser_init()
 		"Referer=", 
 		"Snapshot=t19.inf", 
 		"Mode=HTML", 
+		EXTRARES,
 		"Url=/css/fonts/roboto/Roboto-Light.eot?", ENDITEM, 
 		"Url=/css/fonts/roboto/Roboto-Regular.eot?", ENDITEM, 
 		"Url=/css/fonts/roboto/Roboto-Thin.eot?", ENDITEM, 
@@ -35,7 +36,7 @@ vuser_init()
 		"Name=rememberMe", "Value=false", ENDITEM, 
 		LAST);
 
-	web_url("{Host}:{Port}", 
+	web_url("/", 
 		"URL=http://{Host}:{Port}/", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -43,6 +44,7 @@ vuser_init()
 		"Referer=http://{Host}:{Port}/login", 
 		"Snapshot=t21.inf", 
 		"Mode=HTML", 
+		EXTRARES,
 		"Url=/js/core/jqueryformplugin.js?_=1575043653255", ENDITEM, 
 		"Url=/engineer/wrapper/wrapper.dust", ENDITEM, 
 		"Url=/engineer/wrapper/wrapper.js", ENDITEM, 
