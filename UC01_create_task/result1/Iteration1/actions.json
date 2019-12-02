@@ -1,0 +1,551 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: children",
+                "infFile": "t10.inf",
+                "time": 1575277407947
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: shops",
+                "infFile": "t11.inf",
+                "time": 1575277408318
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: children_2",
+                "infFile": "t12.inf",
+                "time": 1575277408404
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: treeview",
+                "infFile": "t13.inf",
+                "time": 1575277408701
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: children_3",
+                "infFile": "t14.inf",
+                "time": 1575277408820
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: service",
+                "infFile": "t15.inf",
+                "time": 1575277408891
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: {parentIDRandom}",
+                "infFile": "t16.inf",
+                "time": 1575277408989
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: inventoryNumbers",
+                "infFile": "t17.inf",
+                "time": 1575277409087
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Url: inventoryNumbers_2",
+                "infFile": "t18.inf",
+                "time": 1575277409185
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Custom Request: ticket_2",
+                "infFile": "t19.inf",
+                "time": 1575277409489
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC01_TC02_click_button_new_incident",
+                "rawStartTime": 1575277407813,
+                "rawEndTime": 1575277407949,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02163410186767578
+            },
+            {
+                "transactionName": "UC01_TC03_create_order",
+                "rawStartTime": 1575277409186,
+                "rawEndTime": 1575277409490,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02153301239013672
+            }
+        ]
+    },
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP19",
+                "stepName": "Url: children",
+                "infFile": "t20.inf",
+                "time": 1575277409812
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Url: shops",
+                "infFile": "t21.inf",
+                "time": 1575277409970
+            },
+            {
+                "stepId": "STEP21",
+                "stepName": "Url: children_2",
+                "infFile": "t22.inf",
+                "time": 1575277410073
+            },
+            {
+                "stepId": "STEP22",
+                "stepName": "Url: treeview",
+                "infFile": "t23.inf",
+                "time": 1575277410359
+            },
+            {
+                "stepId": "STEP23",
+                "stepName": "Url: children_3",
+                "infFile": "t24.inf",
+                "time": 1575277410457
+            },
+            {
+                "stepId": "STEP24",
+                "stepName": "Url: service",
+                "infFile": "t25.inf",
+                "time": 1575277410555
+            },
+            {
+                "stepId": "STEP25",
+                "stepName": "Url: {parentIDRandom}",
+                "infFile": "t26.inf",
+                "time": 1575277410649
+            },
+            {
+                "stepId": "STEP26",
+                "stepName": "Url: inventoryNumbers",
+                "infFile": "t27.inf",
+                "time": 1575277410794
+            },
+            {
+                "stepId": "STEP27",
+                "stepName": "Url: inventoryNumbers_2",
+                "infFile": "t28.inf",
+                "time": 1575277410885
+            },
+            {
+                "stepId": "STEP28",
+                "stepName": "Custom Request: ticket_2",
+                "infFile": "t29.inf",
+                "time": 1575277411130
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC01_TC02_click_button_new_incident",
+                "rawStartTime": 1575277409675,
+                "rawEndTime": 1575277409814,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02121448516845703
+            },
+            {
+                "transactionName": "UC01_TC03_create_order",
+                "rawStartTime": 1575277410887,
+                "rawEndTime": 1575277411130,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02472400665283203
+            }
+        ]
+    },
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP29",
+                "stepName": "Url: children",
+                "infFile": "t30.inf",
+                "time": 1575277411475
+            },
+            {
+                "stepId": "STEP30",
+                "stepName": "Url: shops",
+                "infFile": "t31.inf",
+                "time": 1575277411645
+            },
+            {
+                "stepId": "STEP31",
+                "stepName": "Url: children_2",
+                "infFile": "t32.inf",
+                "time": 1575277411731
+            },
+            {
+                "stepId": "STEP32",
+                "stepName": "Url: treeview",
+                "infFile": "t33.inf",
+                "time": 1575277412034
+            },
+            {
+                "stepId": "STEP33",
+                "stepName": "Url: children_3",
+                "infFile": "t34.inf",
+                "time": 1575277412129
+            },
+            {
+                "stepId": "STEP34",
+                "stepName": "Url: service",
+                "infFile": "t35.inf",
+                "time": 1575277412233
+            },
+            {
+                "stepId": "STEP35",
+                "stepName": "Url: {parentIDRandom}",
+                "infFile": "t36.inf",
+                "time": 1575277412327
+            },
+            {
+                "stepId": "STEP36",
+                "stepName": "Url: inventoryNumbers",
+                "infFile": "t37.inf",
+                "time": 1575277412442
+            },
+            {
+                "stepId": "STEP37",
+                "stepName": "Url: inventoryNumbers_2",
+                "infFile": "t38.inf",
+                "time": 1575277412533
+            },
+            {
+                "stepId": "STEP38",
+                "stepName": "Custom Request: ticket_2",
+                "infFile": "t39.inf",
+                "time": 1575277413136
+            },
+            {
+                "stepId": "STEP39",
+                "stepName": "Url: learning2.pflb.ru:56902_3",
+                "infFile": "t40.inf",
+                "time": 1575277413268
+            },
+            {
+                "stepId": "STEP40",
+                "stepName": "Url: checkLogin_2",
+                "infFile": "t41.inf",
+                "time": 1575277413354
+            },
+            {
+                "stepId": "STEP41",
+                "stepName": "Url: info_2",
+                "infFile": "t42.inf",
+                "time": 1575277413443
+            },
+            {
+                "stepId": "STEP42",
+                "stepName": "Url: 4_2",
+                "infFile": "t43.inf",
+                "time": 1575277413532
+            },
+            {
+                "stepId": "STEP43",
+                "stepName": "Url: countByState_2",
+                "infFile": "t44.inf",
+                "time": 1575277413625
+            },
+            {
+                "stepId": "STEP44",
+                "stepName": "Url: countByState_3",
+                "infFile": "t45.inf",
+                "time": 1575277413716
+            },
+            {
+                "stepId": "STEP45",
+                "stepName": "Custom Request: ticket_3",
+                "infFile": "t46.inf",
+                "time": 1575277414794
+            },
+            {
+                "stepId": "STEP46",
+                "stepName": "Custom Request: ticket_4",
+                "infFile": "t47.inf",
+                "time": 1575277415914
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC01_TC02_click_button_new_incident",
+                "rawStartTime": 1575277411339,
+                "rawEndTime": 1575277411477,
+                "thinkTime": 0.0,
+                "wastedTime": 0.01990675926208496
+            },
+            {
+                "transactionName": "UC01_TC03_create_order",
+                "rawStartTime": 1575277412535,
+                "rawEndTime": 1575277415917,
+                "thinkTime": 0.0,
+                "wastedTime": 0.19280242919921876
+            }
+        ]
+    },
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP47",
+                "stepName": "Url: children",
+                "infFile": "t48.inf",
+                "time": 1575277416261
+            },
+            {
+                "stepId": "STEP48",
+                "stepName": "Url: shops",
+                "infFile": "t49.inf",
+                "time": 1575277416422
+            },
+            {
+                "stepId": "STEP49",
+                "stepName": "Url: children_2",
+                "infFile": "t50.inf",
+                "time": 1575277416510
+            },
+            {
+                "stepId": "STEP50",
+                "stepName": "Url: treeview",
+                "infFile": "t51.inf",
+                "time": 1575277416807
+            },
+            {
+                "stepId": "STEP51",
+                "stepName": "Url: children_3",
+                "infFile": "t52.inf",
+                "time": 1575277416897
+            },
+            {
+                "stepId": "STEP52",
+                "stepName": "Url: service",
+                "infFile": "t53.inf",
+                "time": 1575277416996
+            },
+            {
+                "stepId": "STEP53",
+                "stepName": "Url: {parentIDRandom}",
+                "infFile": "t54.inf",
+                "time": 1575277417089
+            },
+            {
+                "stepId": "STEP54",
+                "stepName": "Url: inventoryNumbers",
+                "infFile": "t55.inf",
+                "time": 1575277417155
+            },
+            {
+                "stepId": "STEP55",
+                "stepName": "Url: inventoryNumbers_2",
+                "infFile": "t56.inf",
+                "time": 1575277417247
+            },
+            {
+                "stepId": "STEP56",
+                "stepName": "Custom Request: ticket_2",
+                "infFile": "t57.inf",
+                "time": 1575277417833
+            },
+            {
+                "stepId": "STEP57",
+                "stepName": "Url: learning2.pflb.ru:56902_3",
+                "infFile": "t58.inf",
+                "time": 1575277417931
+            },
+            {
+                "stepId": "STEP58",
+                "stepName": "Url: checkLogin_2",
+                "infFile": "t59.inf",
+                "time": 1575277418018
+            },
+            {
+                "stepId": "STEP59",
+                "stepName": "Url: info_2",
+                "infFile": "t60.inf",
+                "time": 1575277418111
+            },
+            {
+                "stepId": "STEP60",
+                "stepName": "Url: 4_2",
+                "infFile": "t61.inf",
+                "time": 1575277418204
+            },
+            {
+                "stepId": "STEP61",
+                "stepName": "Url: countByState_2",
+                "infFile": "t62.inf",
+                "time": 1575277418296
+            },
+            {
+                "stepId": "STEP62",
+                "stepName": "Url: countByState_3",
+                "infFile": "t63.inf",
+                "time": 1575277418390
+            },
+            {
+                "stepId": "STEP63",
+                "stepName": "Custom Request: ticket_3",
+                "infFile": "t64.inf",
+                "time": 1575277419514
+            },
+            {
+                "stepId": "STEP64",
+                "stepName": "Custom Request: ticket_4",
+                "infFile": "t65.inf",
+                "time": 1575277421541
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC01_TC02_click_button_new_incident",
+                "rawStartTime": 1575277416131,
+                "rawEndTime": 1575277416263,
+                "thinkTime": 0.0,
+                "wastedTime": 0.020048141479492189
+            },
+            {
+                "transactionName": "UC01_TC03_create_order",
+                "rawStartTime": 1575277417249,
+                "rawEndTime": 1575277421542,
+                "thinkTime": 0.0,
+                "wastedTime": 0.19070672988891602
+            }
+        ]
+    },
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP65",
+                "stepName": "Url: children",
+                "infFile": "t66.inf",
+                "time": 1575277421875
+            },
+            {
+                "stepId": "STEP66",
+                "stepName": "Url: shops",
+                "infFile": "t67.inf",
+                "time": 1575277422054
+            },
+            {
+                "stepId": "STEP67",
+                "stepName": "Url: children_2",
+                "infFile": "t68.inf",
+                "time": 1575277422148
+            },
+            {
+                "stepId": "STEP68",
+                "stepName": "Url: treeview",
+                "infFile": "t69.inf",
+                "time": 1575277422464
+            },
+            {
+                "stepId": "STEP69",
+                "stepName": "Url: children_3",
+                "infFile": "t70.inf",
+                "time": 1575277422599
+            },
+            {
+                "stepId": "STEP70",
+                "stepName": "Url: service",
+                "infFile": "t71.inf",
+                "time": 1575277422694
+            },
+            {
+                "stepId": "STEP71",
+                "stepName": "Url: {parentIDRandom}",
+                "infFile": "t72.inf",
+                "time": 1575277422788
+            },
+            {
+                "stepId": "STEP72",
+                "stepName": "Url: inventoryNumbers",
+                "infFile": "t73.inf",
+                "time": 1575277422934
+            },
+            {
+                "stepId": "STEP73",
+                "stepName": "Url: inventoryNumbers_2",
+                "infFile": "t74.inf",
+                "time": 1575277423026
+            },
+            {
+                "stepId": "STEP74",
+                "stepName": "Custom Request: ticket_2",
+                "infFile": "t75.inf",
+                "time": 1575277423287
+            },
+            {
+                "stepId": "STEP75",
+                "stepName": "Url: learning2.pflb.ru:56902_3",
+                "infFile": "t76.inf",
+                "time": 1575277423392
+            },
+            {
+                "stepId": "STEP76",
+                "stepName": "Url: checkLogin_2",
+                "infFile": "t77.inf",
+                "time": 1575277423476
+            },
+            {
+                "stepId": "STEP77",
+                "stepName": "Url: info_2",
+                "infFile": "t78.inf",
+                "time": 1575277423564
+            },
+            {
+                "stepId": "STEP78",
+                "stepName": "Url: 4_2",
+                "infFile": "t79.inf",
+                "time": 1575277423653
+            },
+            {
+                "stepId": "STEP79",
+                "stepName": "Url: countByState_2",
+                "infFile": "t80.inf",
+                "time": 1575277423745
+            },
+            {
+                "stepId": "STEP80",
+                "stepName": "Url: countByState_3",
+                "infFile": "t81.inf",
+                "time": 1575277423836
+            },
+            {
+                "stepId": "STEP81",
+                "stepName": "Custom Request: ticket_3",
+                "infFile": "t82.inf",
+                "time": 1575277425012
+            },
+            {
+                "stepId": "STEP82",
+                "stepName": "Custom Request: ticket_4",
+                "infFile": "t83.inf",
+                "time": 1575277426043
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC01_TC02_click_button_new_incident",
+                "rawStartTime": 1575277421737,
+                "rawEndTime": 1575277421877,
+                "thinkTime": 0.0,
+                "wastedTime": 0.019980192184448243
+            },
+            {
+                "transactionName": "UC01_TC03_create_order",
+                "rawStartTime": 1575277423028,
+                "rawEndTime": 1575277426044,
+                "thinkTime": 0.0,
+                "wastedTime": 0.1795358657836914
+            }
+        ]
+    }
+]

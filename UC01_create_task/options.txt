@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IG:\Работа\Git XDesk\XDesk-NT\UC01_create_task
+-ID:\Работа\Git XDesk\XDesk-NT\UC01_create_task
 -IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--eg:\работа\git xdesk\xdesk-nt\uc01_create_task\\logfile.log
-g:\работа\git xdesk\xdesk-nt\uc01_create_task\\combined_UC01_create_task.c
-g:\работа\git xdesk\xdesk-nt\uc01_create_task\\pre_cci.c
+-ed:\работа\git xdesk\xdesk-nt\uc01_create_task\\logfile.log
+d:\работа\git xdesk\xdesk-nt\uc01_create_task\\combined_UC01_create_task.c
+d:\работа\git xdesk\xdesk-nt\uc01_create_task\\pre_cci.c

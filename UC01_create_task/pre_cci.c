@@ -1,4 +1,4 @@
-# 1 "g:\\\360\340\341\356\362\340\\git xdesk\\xdesk-nt\\uc01_create_task\\\\combined_UC01_create_task.c"
+# 1 "d:\\\360\340\341\356\362\340\\git xdesk\\xdesk-nt\\uc01_create_task\\\\combined_UC01_create_task.c"
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -964,7 +964,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "g:\\\360\340\341\356\362\340\\git xdesk\\xdesk-nt\\uc01_create_task\\\\combined_UC01_create_task.c" 2
+# 1 "d:\\\360\340\341\356\362\340\\git xdesk\\xdesk-nt\\uc01_create_task\\\\combined_UC01_create_task.c" 2
 
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1130,7 +1130,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "g:\\\360\340\341\356\362\340\\git xdesk\\xdesk-nt\\uc01_create_task\\\\combined_UC01_create_task.c" 2
+# 2 "d:\\\360\340\341\356\362\340\\git xdesk\\xdesk-nt\\uc01_create_task\\\\combined_UC01_create_task.c" 2
 
 # 1 "globals.h" 1
 
@@ -2587,12 +2587,12 @@ void
  
 
 
-# 3 "g:\\\360\340\341\356\362\340\\git xdesk\\xdesk-nt\\uc01_create_task\\\\combined_UC01_create_task.c" 2
+# 3 "d:\\\360\340\341\356\362\340\\git xdesk\\xdesk-nt\\uc01_create_task\\\\combined_UC01_create_task.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
-		web_url("{host}:{port}", 
+		web_url("learning2.pflb.ru:56902", 
 		"URL=http://{host}:{port}/", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2600,6 +2600,7 @@ vuser_init()
 		"Referer=", 
 		"Snapshot=t1.inf", 
 		"Mode=HTML", 
+		"EXTRARES",
 		"Url=/css/fonts/roboto/Roboto-Light.eot?", "ENDITEM", 
 		"Url=/css/fonts/roboto/Roboto-Thin.eot?", "ENDITEM", 
 		"Url=/css/fonts/roboto/Roboto-Regular.eot?", "ENDITEM", 
@@ -2617,6 +2618,7 @@ vuser_init()
 		"Referer=http://{host}:{port}/", 
 		"Snapshot=t2.inf", 
 		"Mode=HTML", 
+		"EXTRARES",
 		"Url=/tpl/login/login.dust", "ENDITEM", 
 		"Url=/images/logo_2.png", "ENDITEM", 
 		"LAST");
@@ -2638,13 +2640,14 @@ vuser_init()
 
 	web_add_cookie("currentUser={login}; DOMAIN={host}");
 
-	web_url("{host}:{port}_2", 
+	web_url("learning2.pflb.ru:56902_2", 
 		"URL=http://{host}:{port}/", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"Referer=http://{host}:{port}/login", 
 		"Snapshot=t5.inf", 
 		"Mode=HTML",  
+		"EXTRARES",
 		"Url=/js/core/jqueryformplugin.js?_=1574683492680", "ENDITEM", 
 		"Url=/engineer/wrapper/wrapper.dust", "ENDITEM", 
 		"Url=/engineer/wrapper/wrapper.js", "ENDITEM", 
@@ -2713,7 +2716,7 @@ vuser_init()
 	
 	return 0;
 }
-# 4 "g:\\\360\340\341\356\362\340\\git xdesk\\xdesk-nt\\uc01_create_task\\\\combined_UC01_create_task.c" 2
+# 4 "d:\\\360\340\341\356\362\340\\git xdesk\\xdesk-nt\\uc01_create_task\\\\combined_UC01_create_task.c" 2
 
 # 1 "Action.c" 1
 Action()
@@ -2889,13 +2892,14 @@ Action()
 			"LAST");
 	};
 
-	web_url("{host}:{port}_3", 
+	web_url("learning2.pflb.ru:56902_3", 
 		"URL=http://{host}:{port}/", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"Referer=http://{host}:{port}/", 
 		"Snapshot=t22.inf", 
 		"Mode=HTML", 
+		"EXTRARES",
 		"Url=/js/core/jqueryformplugin.js?_=1574683784905", "ENDITEM", 
 		"Url=/engineer/wrapper/wrapper.dust", "ENDITEM", 
 		"Url=/engineer/wrapper/wrapper.js", "ENDITEM", 
@@ -2981,7 +2985,7 @@ Action()
 
 	return 0;
 }
-# 5 "g:\\\360\340\341\356\362\340\\git xdesk\\xdesk-nt\\uc01_create_task\\\\combined_UC01_create_task.c" 2
+# 5 "d:\\\360\340\341\356\362\340\\git xdesk\\xdesk-nt\\uc01_create_task\\\\combined_UC01_create_task.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
@@ -3011,5 +3015,5 @@ vuser_end()
 	
 	return 0;
 }
-# 6 "g:\\\360\340\341\356\362\340\\git xdesk\\xdesk-nt\\uc01_create_task\\\\combined_UC01_create_task.c" 2
+# 6 "d:\\\360\340\341\356\362\340\\git xdesk\\xdesk-nt\\uc01_create_task\\\\combined_UC01_create_task.c" 2
 

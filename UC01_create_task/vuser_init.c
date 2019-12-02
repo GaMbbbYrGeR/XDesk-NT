@@ -1,6 +1,6 @@
 vuser_init()
 {
-		web_url("learning2.pflb.ru:56902", 
+		web_url("/", 
 		"URL=http://{host}:{port}/", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -8,6 +8,7 @@ vuser_init()
 		"Referer=", 
 		"Snapshot=t1.inf", 
 		"Mode=HTML", 
+		EXTRARES,
 		"Url=/css/fonts/roboto/Roboto-Light.eot?", ENDITEM, 
 		"Url=/css/fonts/roboto/Roboto-Thin.eot?", ENDITEM, 
 		"Url=/css/fonts/roboto/Roboto-Regular.eot?", ENDITEM, 
@@ -25,6 +26,7 @@ vuser_init()
 		"Referer=http://{host}:{port}/", 
 		"Snapshot=t2.inf", 
 		"Mode=HTML", 
+		EXTRARES,
 		"Url=/tpl/login/login.dust", ENDITEM, 
 		"Url=/images/logo_2.png", ENDITEM, 
 		LAST);
@@ -46,13 +48,14 @@ vuser_init()
 
 	web_add_cookie("currentUser={login}; DOMAIN={host}");
 
-	web_url("learning2.pflb.ru:56902_2", 
+	web_url("/_2", 
 		"URL=http://{host}:{port}/", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"Referer=http://{host}:{port}/login", 
 		"Snapshot=t5.inf", 
 		"Mode=HTML",  
+		EXTRARES,
 		"Url=/js/core/jqueryformplugin.js?_=1574683492680", ENDITEM, 
 		"Url=/engineer/wrapper/wrapper.dust", ENDITEM, 
 		"Url=/engineer/wrapper/wrapper.js", ENDITEM, 

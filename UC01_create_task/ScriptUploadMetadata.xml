@@ -18,10 +18,13 @@
     <FileEntry Name="login.dat" Filter="2" />
     <FileEntry Name="combined_UC01_create_task.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="107114420440.idx" Filter="1" />
     <FileEntry Name="123.txt" Filter="1" />
     <FileEntry Name="151510740440.idx" Filter="1" />
     <FileEntry Name="161434409440.idx" Filter="1" />
     <FileEntry Name="180307242440.idx" Filter="1" />
+    <FileEntry Name="220238528440.idx" Filter="1" />
+    <FileEntry Name="40032827440.idx" Filter="1" />
     <FileEntry Name="67194564440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
@@ -36,9 +39,12 @@
     <FileEntry Name="output.txt" Filter="1" />
     <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
     <FileEntry Name="password.dat" Filter="1" />
+    <FileEntry Name="replay.har" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="shunra.shunra" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UC01.prm.bak" Filter="1" />
     <FileEntry Name="UC01_create_task.c.pickle" Filter="1" />
     <FileEntry Name="UC01_create_task.ci" Filter="1" />

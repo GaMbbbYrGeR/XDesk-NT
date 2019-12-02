@@ -171,13 +171,14 @@ Action()
 			LAST);
 	};
 
-	web_url("learning2.pflb.ru:56902_3", 
+	web_url("/_3", 
 		"URL=http://{host}:{port}/", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"Referer=http://{host}:{port}/", 
 		"Snapshot=t22.inf", 
 		"Mode=HTML", 
+		EXTRARES,
 		"Url=/js/core/jqueryformplugin.js?_=1574683784905", ENDITEM, 
 		"Url=/engineer/wrapper/wrapper.dust", ENDITEM, 
 		"Url=/engineer/wrapper/wrapper.js", ENDITEM, 
