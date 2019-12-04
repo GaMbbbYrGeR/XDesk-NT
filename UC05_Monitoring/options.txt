@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\student\Documents\UXCrowd4\uxcrowd\UC01_Get_Info
+-ID:\Work\Git XDesk 2.0\XDesk-NT\UC05_Monitoring
 -IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ec:\users\student\documents\uxcrowd4\uxcrowd\uc01_get_info\\logfile.log
-c:\users\student\documents\uxcrowd4\uxcrowd\uc01_get_info\\combined_UC01_Get_Info.c
-c:\users\student\documents\uxcrowd4\uxcrowd\uc01_get_info\\pre_cci.c
+-ed:\work\git xdesk 2.0\xdesk-nt\uc05_monitoring\\logfile.log
+d:\work\git xdesk 2.0\xdesk-nt\uc05_monitoring\\combined_UC05_Monitoring.c
+d:\work\git xdesk 2.0\xdesk-nt\uc05_monitoring\\pre_cci.c

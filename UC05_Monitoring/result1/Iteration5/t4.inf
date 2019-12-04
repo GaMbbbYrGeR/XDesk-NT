@@ -1,0 +1,24 @@
+[t4]
+FileName2=t2_24_2013.UNK
+RawStepEndTime=1575474112137
+FileName5=t1_21_2015.css
+FileName4=t1_20_2015.css
+FileName6=t1_22_2013.UNK
+RequestBodyFile=t4_RequestBody.txt
+RawStepName=Root zone change requests
+ContentType=text/html
+URL1=https://www.iana.org/domains/root/manage
+URL2=https://www.iana.org/_img/2013.1/iana-logo-header.svg
+URL3=https://www.iana.org/_js/2013.1/iana.js
+ResponseHeaderFile=t4_ResponseHeader.txt
+URL4=https://www.iana.org/_css/2015.1/print.css
+URL5=https://www.iana.org/_css/2015.1/screen.css
+URL6=https://www.iana.org/_js/2013.1/jquery.js
+SnapshotXmlFile=snapshot_4.xml
+RequestHeaderFile=t4_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1575474111908
+Total=6
+StepName=Url: Root zone change requests
+FileName1=t4.html
+FileName3=t1_23_2013.UNK

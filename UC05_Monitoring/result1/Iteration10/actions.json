@@ -1,0 +1,38 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP46",
+                "stepName": "Url: www.iana.org",
+                "infFile": "t1.inf",
+                "time": 1575474126110
+            },
+            {
+                "stepId": "STEP47",
+                "stepName": "Url: Domain Names",
+                "infFile": "t2.inf",
+                "time": 1575474126567
+            },
+            {
+                "stepId": "STEP48",
+                "stepName": "Url: The DNS Root Zone",
+                "infFile": "t3.inf",
+                "time": 1575474126841
+            },
+            {
+                "stepId": "STEP49",
+                "stepName": "Url: Root zone change requests",
+                "infFile": "t4.inf",
+                "time": 1575474127108
+            },
+            {
+                "stepId": "STEP50",
+                "stepName": "Custom Request: smth",
+                "infFile": "t5.inf",
+                "time": 1575474127186
+            }
+        ],
+        "transactions": []
+    }
+]

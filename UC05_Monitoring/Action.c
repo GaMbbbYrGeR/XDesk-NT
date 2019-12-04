@@ -2,7 +2,7 @@ Action()
 {
 	
 	char * success = "false";
-	int bytes, sentBytes, sentBytesPast, ResponseTime;
+	int bytes, sentBytes, sentBytesPast, ResponseTime, ResponseCode;
 	char webinfo[500], * webinfostring;
 
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
@@ -17,14 +17,6 @@ Action()
 		"Mode=HTML", 
 		LAST);
 	
-	web_reg_save_param("ParamName=ResponseCode",
-	                          "LB=HTTP/1.1 ",
-	                          "RB= ",
-	                          LAST);
-	
-	if(atoi(lr_eval_string("{ResponseCode}")) >= 200 && atoi(lr_eval_string("{ResponseCode}")) < 400)
-		success = "true";
-	
 	sentBytes = web_get_int_property(HTTP_INFO_TOTAL_REQUEST_STAT);
 
 	web_url("Domain Names", 
@@ -37,13 +29,18 @@ Action()
 		"Mode=HTML", 
 		LAST);
 	
+	bytes = web_get_int_property(HTTP_INFO_DOWNLOAD_SIZE);
+	
+	ResponseCode = web_get_int_property(HTTP_INFO_RETURN_CODE);
+	
+	if(ResponseCode >= 200 && ResponseCode < 400)
+		success = "true";
+	
 	sentBytesPast = web_get_int_property(HTTP_INFO_TOTAL_REQUEST_STAT);
 	
 	lr_save_timestamp("URLtime", "DIGITS=16", LAST );
 	
 	ResponseTime = web_get_int_property(HTTP_INFO_DOWNLOAD_TIME);
-	
-	bytes = web_get_int_property(HTTP_INFO_DOWNLOAD_SIZE);
 
 	web_url("The DNS Root Zone", 
 		"URL=https://www.iana.org/domains/root", 
@@ -68,8 +65,8 @@ Action()
 	sprintf(webinfo, 
 	        "Kuzvecov.K,label=%s,responseCode=%d,success=%s "
 	        "responseTime=%d,bytes=%d,sentBytes=%d,URL=\"%s\" %s000\n",
-	        "Domain Names",
-	        lr_eval_string("{ResponseCode}"),
+	        "DomainNames",
+	        ResponseCode,
 	        success, 
 	        ResponseTime, 
 	        bytes, 
@@ -78,6 +75,14 @@ Action()
 	        lr_eval_string("{URLtime}"));
 	
 	lr_output_message(webinfo);
+	
+	lr_save_string(webinfo, "webinfoParam");
+	
+	web_custom_request("smth", 
+	                   "Method=POST",
+    				   "URL=http://localhost:8086/write?db=KuzvecovDB",
+    				   "Body={webinfoParam}",
+    				   LAST);
 
 	return 0;
 }
