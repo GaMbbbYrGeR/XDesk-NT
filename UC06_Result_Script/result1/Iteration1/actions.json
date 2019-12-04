@@ -1,0 +1,732 @@
+[
+    {
+        "actionName": "Create",
+        "steps": [
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: children",
+                "infFile": "t9.inf",
+                "time": 1575467846333
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: shops",
+                "infFile": "t10.inf",
+                "time": 1575467846499
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: children_2",
+                "infFile": "t11.inf",
+                "time": 1575467846581
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: treeview",
+                "infFile": "t12.inf",
+                "time": 1575467846856
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: children_3",
+                "infFile": "t13.inf",
+                "time": 1575467846949
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: service",
+                "infFile": "t14.inf",
+                "time": 1575467847047
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: {parentIDRandom}",
+                "infFile": "t15.inf",
+                "time": 1575467847159
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: inventoryNumbers",
+                "infFile": "t16.inf",
+                "time": 1575467847250
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: inventoryNumbers_2",
+                "infFile": "t17.inf",
+                "time": 1575467847361
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Custom Request: ticket_2",
+                "infFile": "t18.inf",
+                "time": 1575467848122
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Url: /_3",
+                "infFile": "t19.inf",
+                "time": 1575467848148
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Url: checkLogin_2",
+                "infFile": "t20.inf",
+                "time": 1575467848226
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Url: info_2",
+                "infFile": "t21.inf",
+                "time": 1575467848498
+            },
+            {
+                "stepId": "STEP21",
+                "stepName": "Url: 4_2",
+                "infFile": "t22.inf",
+                "time": 1575467848580
+            },
+            {
+                "stepId": "STEP22",
+                "stepName": "Url: countByState_2",
+                "infFile": "t23.inf",
+                "time": 1575467848670
+            },
+            {
+                "stepId": "STEP23",
+                "stepName": "Url: countByState_3",
+                "infFile": "t24.inf",
+                "time": 1575467848766
+            },
+            {
+                "stepId": "STEP24",
+                "stepName": "Custom Request: ticket_3",
+                "infFile": "t25.inf",
+                "time": 1575467850693
+            },
+            {
+                "stepId": "STEP25",
+                "stepName": "Custom Request: ticket_4",
+                "infFile": "t26.inf",
+                "time": 1575467852587
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC01_TC02_click_button_new_incident",
+                "rawStartTime": 1575467846213,
+                "rawEndTime": 1575467846335,
+                "thinkTime": 0.0,
+                "wastedTime": 0.01993274688720703
+            },
+            {
+                "transactionName": "UC01_TC03_create_order",
+                "rawStartTime": 1575467847363,
+                "rawEndTime": 1575467852589,
+                "thinkTime": 0.0,
+                "wastedTime": 0.1722257137298584
+            }
+        ]
+    },
+    {
+        "actionName": "Create",
+        "steps": [
+            {
+                "stepId": "STEP26",
+                "stepName": "Url: children",
+                "infFile": "t27.inf",
+                "time": 1575467852901
+            },
+            {
+                "stepId": "STEP27",
+                "stepName": "Url: shops",
+                "infFile": "t28.inf",
+                "time": 1575467853067
+            },
+            {
+                "stepId": "STEP28",
+                "stepName": "Url: children_2",
+                "infFile": "t29.inf",
+                "time": 1575467853154
+            },
+            {
+                "stepId": "STEP29",
+                "stepName": "Url: treeview",
+                "infFile": "t30.inf",
+                "time": 1575467853429
+            },
+            {
+                "stepId": "STEP30",
+                "stepName": "Url: children_3",
+                "infFile": "t31.inf",
+                "time": 1575467853514
+            },
+            {
+                "stepId": "STEP31",
+                "stepName": "Url: service",
+                "infFile": "t32.inf",
+                "time": 1575467853616
+            },
+            {
+                "stepId": "STEP32",
+                "stepName": "Url: {parentIDRandom}",
+                "infFile": "t33.inf",
+                "time": 1575467853707
+            },
+            {
+                "stepId": "STEP33",
+                "stepName": "Url: inventoryNumbers",
+                "infFile": "t34.inf",
+                "time": 1575467853842
+            },
+            {
+                "stepId": "STEP34",
+                "stepName": "Url: inventoryNumbers_2",
+                "infFile": "t35.inf",
+                "time": 1575467853933
+            },
+            {
+                "stepId": "STEP35",
+                "stepName": "Custom Request: ticket_2",
+                "infFile": "t36.inf",
+                "time": 1575467854447
+            },
+            {
+                "stepId": "STEP36",
+                "stepName": "Url: /_3",
+                "infFile": "t37.inf",
+                "time": 1575467854472
+            },
+            {
+                "stepId": "STEP37",
+                "stepName": "Url: checkLogin_2",
+                "infFile": "t38.inf",
+                "time": 1575467854550
+            },
+            {
+                "stepId": "STEP38",
+                "stepName": "Url: info_2",
+                "infFile": "t39.inf",
+                "time": 1575467854634
+            },
+            {
+                "stepId": "STEP39",
+                "stepName": "Url: 4_2",
+                "infFile": "t40.inf",
+                "time": 1575467854718
+            },
+            {
+                "stepId": "STEP40",
+                "stepName": "Url: countByState_2",
+                "infFile": "t41.inf",
+                "time": 1575467854814
+            },
+            {
+                "stepId": "STEP41",
+                "stepName": "Url: countByState_3",
+                "infFile": "t42.inf",
+                "time": 1575467854908
+            },
+            {
+                "stepId": "STEP42",
+                "stepName": "Custom Request: ticket_3",
+                "infFile": "t43.inf",
+                "time": 1575467856767
+            },
+            {
+                "stepId": "STEP43",
+                "stepName": "Custom Request: ticket_4",
+                "infFile": "t44.inf",
+                "time": 1575467858536
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC01_TC02_click_button_new_incident",
+                "rawStartTime": 1575467852779,
+                "rawEndTime": 1575467852903,
+                "thinkTime": 0.0,
+                "wastedTime": 0.020526409149169923
+            },
+            {
+                "transactionName": "UC01_TC03_create_order",
+                "rawStartTime": 1575467853935,
+                "rawEndTime": 1575467858538,
+                "thinkTime": 0.0,
+                "wastedTime": 0.17172503471374513
+            }
+        ]
+    },
+    {
+        "actionName": "Comment",
+        "steps": [
+            {
+                "stepId": "STEP44",
+                "stepName": "Url: countByState_2",
+                "infFile": "t45.inf",
+                "time": 1575467858856
+            },
+            {
+                "stepId": "STEP45",
+                "stepName": "Custom Request: task",
+                "infFile": "t46.inf",
+                "time": 1575467859562
+            },
+            {
+                "stepId": "STEP46",
+                "stepName": "Url: {ticketIDRandom}",
+                "infFile": "t47.inf",
+                "time": 1575467860113
+            },
+            {
+                "stepId": "STEP47",
+                "stepName": "Url: checkLogin_2",
+                "infFile": "t48.inf",
+                "time": 1575467860188
+            },
+            {
+                "stepId": "STEP48",
+                "stepName": "Url: comment",
+                "infFile": "t49.inf",
+                "time": 1575467861189
+            },
+            {
+                "stepId": "STEP49",
+                "stepName": "Custom Request: comment_2",
+                "infFile": "t50.inf",
+                "time": 1575467861481
+            },
+            {
+                "stepId": "STEP50",
+                "stepName": "Url: comment_3",
+                "infFile": "t51.inf",
+                "time": 1575467862493
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC03_TC02_All_Tasks",
+                "rawStartTime": 1575467858709,
+                "rawEndTime": 1575467859564,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0405879020690918
+            },
+            {
+                "transactionName": "UC03_TC03_Choose_Task",
+                "rawStartTime": 1575467859636,
+                "rawEndTime": 1575467861192,
+                "thinkTime": 0.0,
+                "wastedTime": 0.05361127853393555
+            },
+            {
+                "transactionName": "UC03_TC04_Write_Comment",
+                "rawStartTime": 1575467861256,
+                "rawEndTime": 1575467862495,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03907632827758789
+            }
+        ]
+    },
+    {
+        "actionName": "Comment",
+        "steps": [
+            {
+                "stepId": "STEP51",
+                "stepName": "Url: countByState_2",
+                "infFile": "t52.inf",
+                "time": 1575467862800
+            },
+            {
+                "stepId": "STEP52",
+                "stepName": "Custom Request: task",
+                "infFile": "t53.inf",
+                "time": 1575467863472
+            },
+            {
+                "stepId": "STEP53",
+                "stepName": "Url: {ticketIDRandom}",
+                "infFile": "t54.inf",
+                "time": 1575467863972
+            },
+            {
+                "stepId": "STEP54",
+                "stepName": "Url: checkLogin_2",
+                "infFile": "t55.inf",
+                "time": 1575467864052
+            },
+            {
+                "stepId": "STEP55",
+                "stepName": "Url: comment",
+                "infFile": "t56.inf",
+                "time": 1575467865076
+            },
+            {
+                "stepId": "STEP56",
+                "stepName": "Custom Request: comment_2",
+                "infFile": "t57.inf",
+                "time": 1575467865396
+            },
+            {
+                "stepId": "STEP57",
+                "stepName": "Url: comment_3",
+                "infFile": "t58.inf",
+                "time": 1575467866387
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC03_TC02_All_Tasks",
+                "rawStartTime": 1575467862675,
+                "rawEndTime": 1575467863473,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0413973331451416
+            },
+            {
+                "transactionName": "UC03_TC03_Choose_Task",
+                "rawStartTime": 1575467863540,
+                "rawEndTime": 1575467865078,
+                "thinkTime": 0.0,
+                "wastedTime": 0.054094552993774417
+            },
+            {
+                "transactionName": "UC03_TC04_Write_Comment",
+                "rawStartTime": 1575467865157,
+                "rawEndTime": 1575467866389,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03854990005493164
+            }
+        ]
+    },
+    {
+        "actionName": "Comment",
+        "steps": [
+            {
+                "stepId": "STEP58",
+                "stepName": "Url: countByState_2",
+                "infFile": "t59.inf",
+                "time": 1575467866663
+            },
+            {
+                "stepId": "STEP59",
+                "stepName": "Custom Request: task",
+                "infFile": "t60.inf",
+                "time": 1575467867394
+            },
+            {
+                "stepId": "STEP60",
+                "stepName": "Url: {ticketIDRandom}",
+                "infFile": "t61.inf",
+                "time": 1575467867889
+            },
+            {
+                "stepId": "STEP61",
+                "stepName": "Url: checkLogin_2",
+                "infFile": "t62.inf",
+                "time": 1575467867965
+            },
+            {
+                "stepId": "STEP62",
+                "stepName": "Url: comment",
+                "infFile": "t63.inf",
+                "time": 1575467868897
+            },
+            {
+                "stepId": "STEP63",
+                "stepName": "Custom Request: comment_2",
+                "infFile": "t64.inf",
+                "time": 1575467869253
+            },
+            {
+                "stepId": "STEP64",
+                "stepName": "Url: comment_3",
+                "infFile": "t65.inf",
+                "time": 1575467870284
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC03_TC02_All_Tasks",
+                "rawStartTime": 1575467866568,
+                "rawEndTime": 1575467867395,
+                "thinkTime": 0.0,
+                "wastedTime": 0.04079627990722656
+            },
+            {
+                "transactionName": "UC03_TC03_Choose_Task",
+                "rawStartTime": 1575467867469,
+                "rawEndTime": 1575467868899,
+                "thinkTime": 0.0,
+                "wastedTime": 0.055425167083740237
+            },
+            {
+                "transactionName": "UC03_TC04_Write_Comment",
+                "rawStartTime": 1575467868966,
+                "rawEndTime": 1575467870286,
+                "thinkTime": 0.0,
+                "wastedTime": 0.04127049446105957
+            }
+        ]
+    },
+    {
+        "actionName": "Close",
+        "steps": [
+            {
+                "stepId": "STEP65",
+                "stepName": "Url: countByState_2",
+                "infFile": "t66.inf",
+                "time": 1575467870579
+            },
+            {
+                "stepId": "STEP66",
+                "stepName": "Custom Request: task",
+                "infFile": "t67.inf",
+                "time": 1575467872022
+            },
+            {
+                "stepId": "STEP67",
+                "stepName": "Url: {ticketIDRandom}",
+                "infFile": "t68.inf",
+                "time": 1575467872582
+            },
+            {
+                "stepId": "STEP68",
+                "stepName": "Url: checkLogin_2",
+                "infFile": "t69.inf",
+                "time": 1575467872660
+            },
+            {
+                "stepId": "STEP69",
+                "stepName": "Url: comment",
+                "infFile": "t70.inf",
+                "time": 1575467873637
+            },
+            {
+                "stepId": "STEP70",
+                "stepName": "Custom Request: {ticketIDRandom}_2",
+                "infFile": "t71.inf",
+                "time": 1575467874281
+            },
+            {
+                "stepId": "STEP71",
+                "stepName": "Url: comment_2",
+                "infFile": "t72.inf",
+                "time": 1575467875233
+            },
+            {
+                "stepId": "STEP72",
+                "stepName": "Custom Request: solve",
+                "infFile": "t73.inf",
+                "time": 1575467875863
+            },
+            {
+                "stepId": "STEP73",
+                "stepName": "Url: /_2",
+                "infFile": "t74.inf",
+                "time": 1575467875894
+            },
+            {
+                "stepId": "STEP74",
+                "stepName": "Url: checkLogin_3",
+                "infFile": "t75.inf",
+                "time": 1575467875973
+            },
+            {
+                "stepId": "STEP75",
+                "stepName": "Url: info_2",
+                "infFile": "t76.inf",
+                "time": 1575467876058
+            },
+            {
+                "stepId": "STEP76",
+                "stepName": "Url: 4_2",
+                "infFile": "t77.inf",
+                "time": 1575467876147
+            },
+            {
+                "stepId": "STEP77",
+                "stepName": "Url: countByState_3",
+                "infFile": "t78.inf",
+                "time": 1575467876242
+            },
+            {
+                "stepId": "STEP78",
+                "stepName": "Url: countByState_4",
+                "infFile": "t79.inf",
+                "time": 1575467876354
+            },
+            {
+                "stepId": "STEP79",
+                "stepName": "Custom Request: task_2",
+                "infFile": "t80.inf",
+                "time": 1575467877057
+            },
+            {
+                "stepId": "STEP80",
+                "stepName": "Custom Request: ticket_2",
+                "infFile": "t81.inf",
+                "time": 1575467878933
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC04_TC02_All_Tasks",
+                "rawStartTime": 1575467870457,
+                "rawEndTime": 1575467872024,
+                "thinkTime": 0.0,
+                "wastedTime": 0.047746896743774417
+            },
+            {
+                "transactionName": "UC04_TC03_Choose_Task",
+                "rawStartTime": 1575467872095,
+                "rawEndTime": 1575467873639,
+                "thinkTime": 0.0,
+                "wastedTime": 0.056314706802368167
+            },
+            {
+                "transactionName": "UC04_TC04_In_Incedent",
+                "rawStartTime": 1575467873712,
+                "rawEndTime": 1575467875235,
+                "thinkTime": 0.0,
+                "wastedTime": 0.04166102409362793
+            },
+            {
+                "transactionName": "UC04_TC05_Close_Incedent",
+                "rawStartTime": 1575467875313,
+                "rawEndTime": 1575467878935,
+                "thinkTime": 0.0,
+                "wastedTime": 0.1847398281097412
+            }
+        ]
+    },
+    {
+        "actionName": "Close",
+        "steps": [
+            {
+                "stepId": "STEP81",
+                "stepName": "Url: countByState_2",
+                "infFile": "t82.inf",
+                "time": 1575467879268
+            },
+            {
+                "stepId": "STEP82",
+                "stepName": "Custom Request: task",
+                "infFile": "t83.inf",
+                "time": 1575467880729
+            },
+            {
+                "stepId": "STEP83",
+                "stepName": "Url: {ticketIDRandom}",
+                "infFile": "t84.inf",
+                "time": 1575467881521
+            },
+            {
+                "stepId": "STEP84",
+                "stepName": "Url: checkLogin_2",
+                "infFile": "t85.inf",
+                "time": 1575467881601
+            },
+            {
+                "stepId": "STEP85",
+                "stepName": "Url: comment",
+                "infFile": "t86.inf",
+                "time": 1575467882528
+            },
+            {
+                "stepId": "STEP86",
+                "stepName": "Custom Request: {ticketIDRandom}_2",
+                "infFile": "t87.inf",
+                "time": 1575467883137
+            },
+            {
+                "stepId": "STEP87",
+                "stepName": "Url: comment_2",
+                "infFile": "t88.inf",
+                "time": 1575467884181
+            },
+            {
+                "stepId": "STEP88",
+                "stepName": "Custom Request: solve",
+                "infFile": "t89.inf",
+                "time": 1575467884816
+            },
+            {
+                "stepId": "STEP89",
+                "stepName": "Url: /_2",
+                "infFile": "t90.inf",
+                "time": 1575467884844
+            },
+            {
+                "stepId": "STEP90",
+                "stepName": "Url: checkLogin_3",
+                "infFile": "t91.inf",
+                "time": 1575467884930
+            },
+            {
+                "stepId": "STEP91",
+                "stepName": "Url: info_2",
+                "infFile": "t92.inf",
+                "time": 1575467885016
+            },
+            {
+                "stepId": "STEP92",
+                "stepName": "Url: 4_2",
+                "infFile": "t93.inf",
+                "time": 1575467885107
+            },
+            {
+                "stepId": "STEP93",
+                "stepName": "Url: countByState_3",
+                "infFile": "t94.inf",
+                "time": 1575467885202
+            },
+            {
+                "stepId": "STEP94",
+                "stepName": "Url: countByState_4",
+                "infFile": "t95.inf",
+                "time": 1575467885303
+            },
+            {
+                "stepId": "STEP95",
+                "stepName": "Custom Request: task_2",
+                "infFile": "t96.inf",
+                "time": 1575467886012
+            },
+            {
+                "stepId": "STEP96",
+                "stepName": "Custom Request: ticket_2",
+                "infFile": "t97.inf",
+                "time": 1575467887881
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC04_TC02_All_Tasks",
+                "rawStartTime": 1575467879131,
+                "rawEndTime": 1575467880731,
+                "thinkTime": 0.0,
+                "wastedTime": 0.048243045806884769
+            },
+            {
+                "transactionName": "UC04_TC03_Choose_Task",
+                "rawStartTime": 1575467880795,
+                "rawEndTime": 1575467882530,
+                "thinkTime": 0.0,
+                "wastedTime": 0.05695056915283203
+            },
+            {
+                "transactionName": "UC04_TC04_In_Incedent",
+                "rawStartTime": 1575467882591,
+                "rawEndTime": 1575467884183,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03843069076538086
+            },
+            {
+                "transactionName": "UC04_TC05_Close_Incedent",
+                "rawStartTime": 1575467884256,
+                "rawEndTime": 1575467887883,
+                "thinkTime": 0.0,
+                "wastedTime": 0.17392706871032716
+            }
+        ]
+    }
+]

@@ -1,0 +1,1549 @@
+Virtual User Script started at: 04.12.2019 16:57:15
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (рту 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\student\Documents\UXCrowd4\uxcrowd\UC06_Create_Comment_Close\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(3): web_url("login") started  	[MsgId: MMSG-26355]
+vuser_init.c(3): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+vuser_init.c(3): Notify: Parameter Substitution: parameter "Port" =  "56902"
+vuser_init.c(3): Found resource "http://learning2.pflb.ru:56902/css/core/material_icons.css" in HTML "http://learning2.pflb.ru:56902/login"  	[MsgId: MMSG-26659]
+vuser_init.c(3): Found resource "http://learning2.pflb.ru:56902/css/core/materialize.css" in HTML "http://learning2.pflb.ru:56902/login"  	[MsgId: MMSG-26659]
+vuser_init.c(3): Found resource "http://learning2.pflb.ru:56902/css/style.css" in HTML "http://learning2.pflb.ru:56902/login"  	[MsgId: MMSG-26659]
+vuser_init.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/legacy.js" in HTML "http://learning2.pflb.ru:56902/login"  	[MsgId: MMSG-26659]
+vuser_init.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/jquery-3.1.1.js" in HTML "http://learning2.pflb.ru:56902/login"  	[MsgId: MMSG-26659]
+vuser_init.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/dust.js" in HTML "http://learning2.pflb.ru:56902/login"  	[MsgId: MMSG-26659]
+vuser_init.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/jquery.cookie.js" in HTML "http://learning2.pflb.ru:56902/login"  	[MsgId: MMSG-26659]
+vuser_init.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/materialize.js" in HTML "http://learning2.pflb.ru:56902/login"  	[MsgId: MMSG-26659]
+vuser_init.c(3): Found resource "http://learning2.pflb.ru:56902/js/page/authorisation.js" in HTML "http://learning2.pflb.ru:56902/login"  	[MsgId: MMSG-26659]
+vuser_init.c(3): web_url("login") was successful, 1012641 body bytes, 2125 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(13): Notify: Transaction "UC03_TC01_login" started.
+vuser_init.c(15): web_submit_data("login_2") started  	[MsgId: MMSG-26355]
+vuser_init.c(15): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+vuser_init.c(15): Notify: Parameter Substitution: parameter "Port" =  "56902"
+vuser_init.c(15): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+vuser_init.c(15): Notify: Parameter Substitution: parameter "Port" =  "56902"
+vuser_init.c(15): Notify: Parameter Substitution: parameter "login" =  "master"
+vuser_init.c(15): Notify: Parameter Substitution: parameter "password" =  "123"
+vuser_init.c(15): web_submit_data("login_2") was successful, 146 body bytes, 339 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(28): web_url("/") started  	[MsgId: MMSG-26355]
+vuser_init.c(28): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+vuser_init.c(28): Notify: Parameter Substitution: parameter "Port" =  "56902"
+vuser_init.c(28): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+vuser_init.c(28): Notify: Parameter Substitution: parameter "Port" =  "56902"
+vuser_init.c(28): Resource "http://learning2.pflb.ru:56902/css/core/material_icons.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(28): Found resource "http://learning2.pflb.ru:56902/css/core/materialize.min.css" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+vuser_init.c(28): Found resource "http://learning2.pflb.ru:56902/css/core/uploadfile.css" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+vuser_init.c(28): Found resource "http://learning2.pflb.ru:56902/css/core/quill.snow.css" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+vuser_init.c(28): Found resource "http://learning2.pflb.ru:56902/css/core/select2.min.css" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+vuser_init.c(28): Found resource "http://learning2.pflb.ru:56902/css/core/ee-file-upload.css" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+vuser_init.c(28): Resource "http://learning2.pflb.ru:56902/css/style.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(28): Found resource "http://learning2.pflb.ru:56902/css/company_2.css" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+vuser_init.c(28): Resource "http://learning2.pflb.ru:56902/js/core/legacy.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(28): Resource "http://learning2.pflb.ru:56902/js/core/jquery-3.1.1.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(28): Found resource "http://learning2.pflb.ru:56902/js/core/clamp.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+vuser_init.c(28): Resource "http://learning2.pflb.ru:56902/js/core/jquery.cookie.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(28): Found resource "http://learning2.pflb.ru:56902/js/core/jquery.uploadfile.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+vuser_init.c(28): Found resource "http://learning2.pflb.ru:56902/js/core/jquery.maskedinput.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+vuser_init.c(28): Found resource "http://learning2.pflb.ru:56902/js/core/jquery.ee.router.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+vuser_init.c(28): Found resource "http://learning2.pflb.ru:56902/js/core/select2.full.min.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+vuser_init.c(28): Found resource "http://learning2.pflb.ru:56902/js/core/readmore.min.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+vuser_init.c(28): Resource "http://learning2.pflb.ru:56902/js/core/dust.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_init.c(28): Found resource "http://learning2.pflb.ru:56902/js/core/dust-helpers.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+vuser_init.c(28): Found resource "http://learning2.pflb.ru:56902/js/core/custom-helpers.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+vuser_init.c(28): Found resource "http://learning2.pflb.ru:56902/js/core/materialize.min.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+vuser_init.c(28): Found resource "http://learning2.pflb.ru:56902/js/core/materialize-select.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+vuser_init.c(28): Found resource "http://learning2.pflb.ru:56902/js/core/materialize-pagination.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+vuser_init.c(28): Found resource "http://learning2.pflb.ru:56902/js/core/polyphills.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+vuser_init.c(28): Found resource "http://learning2.pflb.ru:56902/js/core/helpers.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+vuser_init.c(28): Found resource "http://learning2.pflb.ru:56902/js/index.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+vuser_init.c(28): Found resource "http://learning2.pflb.ru:56902/js/core/materialTable.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+vuser_init.c(28): web_url("/") was successful, 559905 body bytes, 4251 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(37): web_url("checkLogin") started  	[MsgId: MMSG-26355]
+vuser_init.c(37): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+vuser_init.c(37): Notify: Parameter Substitution: parameter "Port" =  "56902"
+vuser_init.c(37): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+vuser_init.c(37): Notify: Parameter Substitution: parameter "Port" =  "56902"
+vuser_init.c(37): web_url("checkLogin") was successful, 92 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+vuser_init.c(47): web_url("info") started  	[MsgId: MMSG-26355]
+vuser_init.c(47): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+vuser_init.c(47): Notify: Parameter Substitution: parameter "Port" =  "56902"
+vuser_init.c(47): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+vuser_init.c(47): Notify: Parameter Substitution: parameter "Port" =  "56902"
+vuser_init.c(47): web_url("info") was successful, 277 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+vuser_init.c(57): web_url("4") started  	[MsgId: MMSG-26355]
+vuser_init.c(57): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+vuser_init.c(57): Notify: Parameter Substitution: parameter "Port" =  "56902"
+vuser_init.c(57): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+vuser_init.c(57): Notify: Parameter Substitution: parameter "Port" =  "56902"
+vuser_init.c(57): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="http://learning2.pflb.ru:56902/api/ticket/countByState/4"  	[MsgId: MMSG-26548]
+vuser_init.c(57): web_url("4") was successful, 52 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+vuser_init.c(66): web_url("countByState") started  	[MsgId: MMSG-26355]
+vuser_init.c(66): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+vuser_init.c(66): Notify: Parameter Substitution: parameter "Port" =  "56902"
+vuser_init.c(66): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+vuser_init.c(66): Notify: Parameter Substitution: parameter "Port" =  "56902"
+vuser_init.c(66): web_url("countByState") was successful, 220 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+vuser_init.c(76): web_reg_save_param started  	[MsgId: MMSG-26355]
+vuser_init.c(76): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+vuser_init.c(82): web_custom_request("ticket") started  	[MsgId: MMSG-26355]
+vuser_init.c(82): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+vuser_init.c(82): Notify: Parameter Substitution: parameter "Port" =  "56902"
+vuser_init.c(82): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+vuser_init.c(82): Notify: Parameter Substitution: parameter "Port" =  "56902"
+vuser_init.c(82): Notify: Saving Parameter "ticketID_1 = 150361".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_2 = 150352".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_3 = 150341".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_4 = 150338".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_5 = 150336".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_6 = 150335".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_7 = 150334".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_8 = 150332".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_9 = 150331".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_10 = 150330".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_11 = 150327".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_12 = 150326".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_13 = 150324".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_14 = 150323".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_15 = 150322".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_16 = 150321".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_17 = 150315".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_18 = 150314".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_19 = 150292".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_20 = 150285".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_21 = 150276".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_22 = 150273".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_23 = 150272".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_24 = 150271".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_25 = 150270".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_26 = 150266".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_27 = 150263".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_28 = 150262".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_29 = 150222".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_30 = 150155".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_31 = 150149".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_32 = 150145".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_33 = 149889".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_34 = 149843".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_35 = 149833".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_36 = 149754".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_37 = 149751".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_38 = 149748".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_39 = 149736".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_40 = 149729".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_41 = 149728".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_42 = 149727".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_43 = 149698".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_44 = 149688".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_45 = 149632".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_46 = 149600".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_47 = 149598".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_48 = 149583".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_49 = 149571".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_50 = 149565".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_51 = 149564".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_52 = 149563".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_53 = 149561".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_54 = 149560".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_55 = 149559".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_56 = 149558".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_57 = 149557".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_58 = 149556".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_59 = 149555".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_60 = 149554".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_61 = 149553".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_62 = 149552".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_63 = 149551".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_64 = 149550".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_65 = 149549".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_66 = 149548".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_67 = 149547".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_68 = 149546".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_69 = 149545".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_70 = 149544".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_71 = 149542".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_72 = 149541".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_73 = 149540".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_74 = 149539".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_75 = 149538".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_76 = 149537".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_77 = 149536".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_78 = 149535".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_79 = 149522".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_80 = 149521".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_81 = 149475".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_82 = 149458".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_83 = 149455".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_84 = 149454".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_85 = 149453".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_86 = 149452".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_87 = 149450".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_88 = 149449".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_89 = 149448".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_90 = 149447".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_91 = 149446".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_92 = 149445".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_93 = 149444".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_94 = 149443".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_95 = 149442".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_96 = 149441".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_97 = 149439".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_98 = 149438".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_99 = 149437".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_100 = 149436".
+vuser_init.c(82): Notify: Saving Parameter "ticketID_count = 100".
+vuser_init.c(82): web_custom_request("ticket") was successful, 147937 body bytes, 316 header bytes, 156 chunking overhead bytes  	[MsgId: MMSG-26385]
+vuser_init.c(94): Notify: Transaction "UC03_TC01_login" ended with a "Pass" status (Duration: 9.6747 Wasted Time: 0.1670).
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Runtime Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Create.
+Create.c(4): Notify: Transaction "UC01_TC02_click_button_new_incident" started.
+Create.c(6): web_url("children") started  	[MsgId: MMSG-26355]
+Create.c(6): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(6): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(6): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(6): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(6): web_url("children") was successful, 907 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(16): Notify: Transaction "UC01_TC02_click_button_new_incident" ended with a "Pass" status (Duration: 0.1217 Wasted Time: 0.0199).
+Create.c(18): web_reg_save_param started  	[MsgId: MMSG-26355]
+Create.c(18): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Create.c(24): web_url("shops") started  	[MsgId: MMSG-26355]
+Create.c(24): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(24): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(24): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(24): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(24): Notify: Saving Parameter "shopID_1 = -1".
+Create.c(24): Notify: Saving Parameter "shopID_2 = -2".
+Create.c(24): Notify: Saving Parameter "shopID_3 = 4".
+Create.c(24): Notify: Saving Parameter "shopID_4 = 5".
+Create.c(24): Notify: Saving Parameter "shopID_5 = 1".
+Create.c(24): Notify: Saving Parameter "shopID_6 = 2".
+Create.c(24): Notify: Saving Parameter "shopID_count = 6".
+Create.c(24): web_url("shops") was successful, 1015 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(34): web_url("children_2") started  	[MsgId: MMSG-26355]
+Create.c(34): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(34): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(34): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(34): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(34): web_url("children_2") was successful, 907 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(44): Notify: Parameter Substitution: parameter "shopID_count" =  "6"
+Create.c(44): Notify: Parameter Substitution: parameter "shopID_5" =  "1"
+Create.c(44): Notify: Saving Parameter "shopIDRandom = 1".
+Create.c(46): web_reg_save_param started  	[MsgId: MMSG-26355]
+Create.c(46): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Create.c(52): web_url("treeview") started  	[MsgId: MMSG-26355]
+Create.c(52): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(52): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(52): Notify: Parameter Substitution: parameter "shopIDRandom" =  "1"
+Create.c(52): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(52): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(52): Notify: Saving Parameter "parentID_1 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_2 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_3 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_4 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_5 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_6 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_7 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_8 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_9 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_10 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_11 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_12 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_13 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_14 = 147".
+Create.c(52): Notify: Saving Parameter "parentID_15 = 147".
+Create.c(52): Notify: Saving Parameter "parentID_16 = 147".
+Create.c(52): Notify: Saving Parameter "parentID_17 = 147".
+Create.c(52): Notify: Saving Parameter "parentID_18 = 147".
+Create.c(52): Notify: Saving Parameter "parentID_19 = 147".
+Create.c(52): Notify: Saving Parameter "parentID_20 = 147".
+Create.c(52): Notify: Saving Parameter "parentID_21 = 143".
+Create.c(52): Notify: Saving Parameter "parentID_22 = 144".
+Create.c(52): Notify: Saving Parameter "parentID_23 = 144".
+Create.c(52): Notify: Saving Parameter "parentID_24 = 144".
+Create.c(52): Notify: Saving Parameter "parentID_25 = 148".
+Create.c(52): Notify: Saving Parameter "parentID_26 = 148".
+Create.c(52): Notify: Saving Parameter "parentID_27 = 148".
+Create.c(52): Notify: Saving Parameter "parentID_28 = 148".
+Create.c(52): Notify: Saving Parameter "parentID_29 = 148".
+Create.c(52): Notify: Saving Parameter "parentID_30 = 148".
+Create.c(52): Notify: Saving Parameter "parentID_31 = 148".
+Create.c(52): Notify: Saving Parameter "parentID_32 = 148".
+Create.c(52): Notify: Saving Parameter "parentID_33 = 151".
+Create.c(52): Notify: Saving Parameter "parentID_34 = 149".
+Create.c(52): Notify: Saving Parameter "parentID_35 = 150".
+Create.c(52): Notify: Saving Parameter "parentID_36 = 153".
+Create.c(52): Notify: Saving Parameter "parentID_37 = 153".
+Create.c(52): Notify: Saving Parameter "parentID_38 = 152".
+Create.c(52): Notify: Saving Parameter "parentID_39 = 179".
+Create.c(52): Notify: Saving Parameter "parentID_40 = 179".
+Create.c(52): Notify: Saving Parameter "parentID_41 = 179".
+Create.c(52): Notify: Saving Parameter "parentID_42 = 179".
+Create.c(52): Notify: Saving Parameter "parentID_43 = 179".
+Create.c(52): Notify: Saving Parameter "parentID_44 = 180".
+Create.c(52): Notify: Saving Parameter "parentID_45 = 180".
+Create.c(52): Notify: Saving Parameter "parentID_46 = 180".
+Create.c(52): Notify: Saving Parameter "parentID_47 = 180".
+Create.c(52): Notify: Saving Parameter "parentID_48 = 180".
+Create.c(52): Notify: Saving Parameter "parentID_49 = 180".
+Create.c(52): Notify: Saving Parameter "parentID_50 = 181".
+Create.c(52): Notify: Saving Parameter "parentID_51 = 181".
+Create.c(52): Notify: Saving Parameter "parentID_52 = 181".
+Create.c(52): Notify: Saving Parameter "parentID_53 = 182".
+Create.c(52): Notify: Saving Parameter "parentID_54 = 183".
+Create.c(52): Notify: Saving Parameter "parentID_55 = 185".
+Create.c(52): Notify: Saving Parameter "parentID_56 = 185".
+Create.c(52): Notify: Saving Parameter "parentID_57 = 185".
+Create.c(52): Notify: Saving Parameter "parentID_58 = 185".
+Create.c(52): Notify: Saving Parameter "parentID_59 = 184".
+Create.c(52): Notify: Saving Parameter "parentID_60 = 184".
+Create.c(52): Notify: Saving Parameter "parentID_61 = 184".
+Create.c(52): Notify: Saving Parameter "parentID_62 = 184".
+Create.c(52): Notify: Saving Parameter "parentID_63 = 184".
+Create.c(52): Notify: Saving Parameter "parentID_64 = 184".
+Create.c(52): Notify: Saving Parameter "parentID_65 = 186".
+Create.c(52): Notify: Saving Parameter "parentID_66 = 187".
+Create.c(52): Notify: Saving Parameter "parentID_67 = 188".
+Create.c(52): Notify: Saving Parameter "parentID_68 = 189".
+Create.c(52): Notify: Saving Parameter "parentID_69 = 189".
+Create.c(52): Notify: Saving Parameter "parentID_70 = 189".
+Create.c(52): Notify: Saving Parameter "parentID_71 = 189".
+Create.c(52): Notify: Saving Parameter "parentID_72 = 190".
+Create.c(52): Notify: Saving Parameter "parentID_73 = 190".
+Create.c(52): Notify: Saving Parameter "parentID_74 = 190".
+Create.c(52): Notify: Saving Parameter "parentID_75 = 191".
+Create.c(52): Notify: Saving Parameter "parentID_76 = 191".
+Create.c(52): Notify: Saving Parameter "parentID_77 = 191".
+Create.c(52): Notify: Saving Parameter "parentID_78 = 191".
+Create.c(52): Notify: Saving Parameter "parentID_79 = 191".
+Create.c(52): Notify: Saving Parameter "parentID_80 = 192".
+Create.c(52): Notify: Saving Parameter "parentID_81 = 192".
+Create.c(52): Notify: Saving Parameter "parentID_82 = 192".
+Create.c(52): Notify: Saving Parameter "parentID_83 = 193".
+Create.c(52): Notify: Saving Parameter "parentID_84 = 193".
+Create.c(52): Notify: Saving Parameter "parentID_85 = 193".
+Create.c(52): Notify: Saving Parameter "parentID_86 = 193".
+Create.c(52): Notify: Saving Parameter "parentID_87 = 194".
+Create.c(52): Notify: Saving Parameter "parentID_88 = 194".
+Create.c(52): Notify: Saving Parameter "parentID_89 = 194".
+Create.c(52): Notify: Saving Parameter "parentID_90 = 195".
+Create.c(52): Notify: Saving Parameter "parentID_91 = 195".
+Create.c(52): Notify: Saving Parameter "parentID_92 = 195".
+Create.c(52): Notify: Saving Parameter "parentID_93 = 195".
+Create.c(52): Notify: Saving Parameter "parentID_94 = 195".
+Create.c(52): Notify: Saving Parameter "parentID_95 = 196".
+Create.c(52): Notify: Saving Parameter "parentID_96 = 196".
+Create.c(52): Notify: Saving Parameter "parentID_97 = 196".
+Create.c(52): Notify: Saving Parameter "parentID_98 = 197".
+Create.c(52): Notify: Saving Parameter "parentID_99 = 197".
+Create.c(52): Notify: Saving Parameter "parentID_100 = 197".
+Create.c(52): Notify: Saving Parameter "parentID_101 = 198".
+Create.c(52): Notify: Saving Parameter "parentID_102 = 198".
+Create.c(52): Notify: Saving Parameter "parentID_103 = 198".
+Create.c(52): Notify: Saving Parameter "parentID_104 = 198".
+Create.c(52): Notify: Saving Parameter "parentID_105 = 198".
+Create.c(52): Notify: Saving Parameter "parentID_106 = 199".
+Create.c(52): Notify: Saving Parameter "parentID_107 = 199".
+Create.c(52): Notify: Saving Parameter "parentID_108 = 199".
+Create.c(52): Notify: Saving Parameter "parentID_109 = 200".
+Create.c(52): Notify: Saving Parameter "parentID_110 = 200".
+Create.c(52): Notify: Saving Parameter "parentID_111 = 200".
+Create.c(52): Notify: Saving Parameter "parentID_112 = 200".
+Create.c(52): Notify: Saving Parameter "parentID_113 = 201".
+Create.c(52): Notify: Saving Parameter "parentID_114 = 201".
+Create.c(52): Notify: Saving Parameter "parentID_115 = 201".
+Create.c(52): Notify: Saving Parameter "parentID_116 = 201".
+Create.c(52): Notify: Saving Parameter "parentID_117 = 201".
+Create.c(52): Notify: Saving Parameter "parentID_118 = 201".
+Create.c(52): Notify: Saving Parameter "parentID_119 = 201".
+Create.c(52): Notify: Saving Parameter "parentID_120 = 202".
+Create.c(52): Notify: Saving Parameter "parentID_121 = 202".
+Create.c(52): Notify: Saving Parameter "parentID_122 = 202".
+Create.c(52): Notify: Saving Parameter "parentID_123 = 202".
+Create.c(52): Notify: Saving Parameter "parentID_124 = 202".
+Create.c(52): Notify: Saving Parameter "parentID_125 = 202".
+Create.c(52): Notify: Saving Parameter "parentID_126 = 202".
+Create.c(52): Notify: Saving Parameter "parentID_127 = 202".
+Create.c(52): Notify: Saving Parameter "parentID_128 = 202".
+Create.c(52): Notify: Saving Parameter "parentID_129 = 202".
+Create.c(52): Notify: Saving Parameter "parentID_130 = 202".
+Create.c(52): Notify: Saving Parameter "parentID_131 = 203".
+Create.c(52): Notify: Saving Parameter "parentID_132 = 203".
+Create.c(52): Notify: Saving Parameter "parentID_133 = 203".
+Create.c(52): Notify: Saving Parameter "parentID_134 = 204".
+Create.c(52): Notify: Saving Parameter "parentID_135 = 204".
+Create.c(52): Notify: Saving Parameter "parentID_136 = 204".
+Create.c(52): Notify: Saving Parameter "parentID_137 = 204".
+Create.c(52): Notify: Saving Parameter "parentID_138 = 204".
+Create.c(52): Notify: Saving Parameter "parentID_139 = 204".
+Create.c(52): Notify: Saving Parameter "parentID_140 = 204".
+Create.c(52): Notify: Saving Parameter "parentID_141 = 204".
+Create.c(52): Notify: Saving Parameter "parentID_142 = 205".
+Create.c(52): Notify: Saving Parameter "parentID_143 = 205".
+Create.c(52): Notify: Saving Parameter "parentID_144 = 205".
+Create.c(52): Notify: Saving Parameter "parentID_145 = 205".
+Create.c(52): Notify: Saving Parameter "parentID_146 = 205".
+Create.c(52): Notify: Saving Parameter "parentID_147 = 205".
+Create.c(52): Notify: Saving Parameter "parentID_148 = 206".
+Create.c(52): Notify: Saving Parameter "parentID_149 = 206".
+Create.c(52): Notify: Saving Parameter "parentID_150 = 206".
+Create.c(52): Notify: Saving Parameter "parentID_151 = 206".
+Create.c(52): Notify: Saving Parameter "parentID_152 = 206".
+Create.c(52): Notify: Saving Parameter "parentID_153 = 206".
+Create.c(52): Notify: Saving Parameter "parentID_154 = 206".
+Create.c(52): Notify: Saving Parameter "parentID_155 = 206".
+Create.c(52): Notify: Saving Parameter "parentID_156 = 154".
+Create.c(52): Notify: Saving Parameter "parentID_157 = 154".
+Create.c(52): Notify: Saving Parameter "parentID_158 = 154".
+Create.c(52): Notify: Saving Parameter "parentID_159 = 155".
+Create.c(52): Notify: Saving Parameter "parentID_160 = 155".
+Create.c(52): Notify: Saving Parameter "parentID_161 = 155".
+Create.c(52): Notify: Saving Parameter "parentID_162 = 156".
+Create.c(52): Notify: Saving Parameter "parentID_163 = 156".
+Create.c(52): Notify: Saving Parameter "parentID_164 = 156".
+Create.c(52): Notify: Saving Parameter "parentID_165 = 156".
+Create.c(52): Notify: Saving Parameter "parentID_166 = 157".
+Create.c(52): Notify: Saving Parameter "parentID_167 = 157".
+Create.c(52): Notify: Saving Parameter "parentID_168 = 157".
+Create.c(52): Notify: Saving Parameter "parentID_169 = 157".
+Create.c(52): Notify: Saving Parameter "parentID_170 = 157".
+Create.c(52): Notify: Saving Parameter "parentID_171 = 158".
+Create.c(52): Notify: Saving Parameter "parentID_172 = 158".
+Create.c(52): Notify: Saving Parameter "parentID_173 = 158".
+Create.c(52): Notify: Saving Parameter "parentID_174 = 159".
+Create.c(52): Notify: Saving Parameter "parentID_175 = 159".
+Create.c(52): Notify: Saving Parameter "parentID_176 = 160".
+Create.c(52): Notify: Saving Parameter "parentID_177 = 160".
+Create.c(52): Notify: Saving Parameter "parentID_178 = 161".
+Create.c(52): Notify: Saving Parameter "parentID_179 = 161".
+Create.c(52): Notify: Saving Parameter "parentID_180 = 161".
+Create.c(52): Notify: Saving Parameter "parentID_181 = 162".
+Create.c(52): Notify: Saving Parameter "parentID_182 = 164".
+Create.c(52): Notify: Saving Parameter "parentID_183 = 164".
+Create.c(52): Notify: Saving Parameter "parentID_184 = 165".
+Create.c(52): Notify: Saving Parameter "parentID_185 = 165".
+Create.c(52): Notify: Saving Parameter "parentID_186 = 166".
+Create.c(52): Notify: Saving Parameter "parentID_187 = 166".
+Create.c(52): Notify: Saving Parameter "parentID_188 = 163".
+Create.c(52): Notify: Saving Parameter "parentID_189 = 163".
+Create.c(52): Notify: Saving Parameter "parentID_190 = 163".
+Create.c(52): Notify: Saving Parameter "parentID_191 = 163".
+Create.c(52): Notify: Saving Parameter "parentID_192 = 167".
+Create.c(52): Notify: Saving Parameter "parentID_193 = 167".
+Create.c(52): Notify: Saving Parameter "parentID_194 = 167".
+Create.c(52): Notify: Saving Parameter "parentID_195 = 169".
+Create.c(52): Notify: Saving Parameter "parentID_196 = 169".
+Create.c(52): Notify: Saving Parameter "parentID_197 = 169".
+Create.c(52): Notify: Saving Parameter "parentID_198 = 169".
+Create.c(52): Notify: Saving Parameter "parentID_199 = 168".
+Create.c(52): Notify: Saving Parameter "parentID_200 = 168".
+Create.c(52): Notify: Saving Parameter "parentID_201 = 170".
+Create.c(52): Notify: Saving Parameter "parentID_202 = 171".
+Create.c(52): Notify: Saving Parameter "parentID_203 = 171".
+Create.c(52): Notify: Saving Parameter "parentID_204 = 171".
+Create.c(52): Notify: Saving Parameter "parentID_205 = 172".
+Create.c(52): Notify: Saving Parameter "parentID_206 = 172".
+Create.c(52): Notify: Saving Parameter "parentID_207 = 172".
+Create.c(52): Notify: Saving Parameter "parentID_208 = 172".
+Create.c(52): Notify: Saving Parameter "parentID_209 = 172".
+Create.c(52): Notify: Saving Parameter "parentID_210 = 173".
+Create.c(52): Notify: Saving Parameter "parentID_211 = 174".
+Create.c(52): Notify: Saving Parameter "parentID_212 = 174".
+Create.c(52): Notify: Saving Parameter "parentID_213 = 174".
+Create.c(52): Notify: Saving Parameter "parentID_214 = 175".
+Create.c(52): Notify: Saving Parameter "parentID_215 = 175".
+Create.c(52): Notify: Saving Parameter "parentID_216 = 178".
+Create.c(52): Notify: Saving Parameter "parentID_217 = 176".
+Create.c(52): Notify: Saving Parameter "parentID_218 = 176".
+Create.c(52): Notify: Saving Parameter "parentID_219 = 177".
+Create.c(52): Notify: Saving Parameter "parentID_220 = 217".
+Create.c(52): Notify: Saving Parameter "parentID_221 = 217".
+Create.c(52): Notify: Saving Parameter "parentID_222 = 7".
+Create.c(52): Notify: Saving Parameter "parentID_223 = 207".
+Create.c(52): Notify: Saving Parameter "parentID_224 = 207".
+Create.c(52): Notify: Saving Parameter "parentID_225 = 207".
+Create.c(52): Notify: Saving Parameter "parentID_226 = 207".
+Create.c(52): Notify: Saving Parameter "parentID_227 = 208".
+Create.c(52): Notify: Saving Parameter "parentID_228 = 208".
+Create.c(52): Notify: Saving Parameter "parentID_229 = 209".
+Create.c(52): Notify: Saving Parameter "parentID_230 = 216".
+Create.c(52): Notify: Saving Parameter "parentID_count = 230".
+Create.c(52): web_url("treeview") was successful, 75659 body bytes, 316 header bytes, 84 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(62): Notify: Parameter Substitution: parameter "parentID_count" =  "230"
+Create.c(62): Notify: Parameter Substitution: parameter "parentID_185" =  "165"
+Create.c(62): Notify: Saving Parameter "parentIDRandom = 165".
+Create.c(64): web_url("children_3") started  	[MsgId: MMSG-26355]
+Create.c(64): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(64): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(64): Notify: Parameter Substitution: parameter "parentIDRandom" =  "165"
+Create.c(64): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(64): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(64): web_url("children_3") was successful, 2 body bytes, 316 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(74): web_reg_save_param started  	[MsgId: MMSG-26355]
+Create.c(74): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Create.c(80): web_url("service") started  	[MsgId: MMSG-26355]
+Create.c(80): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(80): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(80): Notify: Parameter Substitution: parameter "parentIDRandom" =  "165"
+Create.c(80): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(80): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(80): Notify: Saving Parameter "serviceID_1 = 2849".
+Create.c(80): Notify: Saving Parameter "serviceID_2 = 2850".
+Create.c(80): Notify: Saving Parameter "serviceID_count = 2".
+Create.c(80): web_url("service") was successful, 369 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(90): Notify: Parameter Substitution: parameter "serviceID_count" =  "2"
+Create.c(90): Notify: Parameter Substitution: parameter "serviceID_2" =  "2850"
+Create.c(90): Notify: Saving Parameter "serviceIDRandom = 2850".
+Create.c(92): web_url("{parentIDRandom}") started  	[MsgId: MMSG-26355]
+Create.c(92): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(92): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(92): Notify: Parameter Substitution: parameter "parentIDRandom" =  "165"
+Create.c(92): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(92): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(92): web_url("{parentIDRandom}") was successful, 132 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(102): web_reg_save_param started  	[MsgId: MMSG-26355]
+Create.c(102): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Create.c(109): web_url("inventoryNumbers") started  	[MsgId: MMSG-26355]
+Create.c(109): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(109): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(109): Notify: Parameter Substitution: parameter "serviceIDRandom" =  "2850"
+Create.c(109): Notify: Parameter Substitution: parameter "shopIDRandom" =  "1"
+Create.c(109): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(109): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(109): Warning -26377: No match found for the requested parameter "InventoryNumberID". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 114 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MWAR-26377]
+Create.c(109): Notify: Saving Parameter "InventoryNumberID_count = 0".
+Create.c(109): web_url("inventoryNumbers") highest severity level was "warning", 114 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26387]
+Create.c(120): web_reg_save_param started  	[MsgId: MMSG-26355]
+Create.c(120): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Create.c(125): web_url("inventoryNumbers_2") started  	[MsgId: MMSG-26355]
+Create.c(125): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(125): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(125): Notify: Parameter Substitution: parameter "shopIDRandom" =  "1"
+Create.c(125): Notify: Parameter Substitution: parameter "serviceIDRandom" =  "2850"
+Create.c(125): Notify: Parameter Substitution: parameter "serviceIDRandom" =  "2850"
+Create.c(125): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(125): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(125): Notify: Saving Parameter "InventoryID = 0".
+Create.c(125): web_url("inventoryNumbers_2") was successful, 114 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(137): Notify: Transaction "UC01_TC03_create_order" started.
+Create.c(139): Notify: Parameter Substitution: parameter "InventoryID" =  "0"
+Create.c(141): web_custom_request("ticket_2") started  	[MsgId: MMSG-26355]
+Create.c(141): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(141): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(141): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(141): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(141): Notify: Parameter Substitution: parameter "serviceIDRandom" =  "2850"
+Create.c(141): Notify: Parameter Substitution: parameter "shopIDRandom" =  "1"
+Create.c(141): web_custom_request("ticket_2") was successful, 1149 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(174): web_url("/_3") started  	[MsgId: MMSG-26355]
+Create.c(174): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(174): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(174): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(174): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(174): Retrieving data from cache for "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26558]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/css/core/material_icons.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/css/core/materialize.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/css/core/uploadfile.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/css/core/quill.snow.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/css/core/select2.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/css/core/ee-file-upload.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/css/style.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/css/company_2.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/legacy.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/jquery-3.1.1.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/clamp.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/jquery.cookie.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/jquery.uploadfile.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/jquery.maskedinput.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/jquery.ee.router.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/select2.full.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/readmore.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/dust.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/dust-helpers.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/custom-helpers.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/materialize.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/materialize-select.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/materialize-pagination.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/polyphills.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/helpers.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/index.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/materialTable.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): web_url("/_3") was successful, 0 body bytes, 0 header bytes  	[MsgId: MMSG-26386]
+Create.c(183): web_url("checkLogin_2") started  	[MsgId: MMSG-26355]
+Create.c(183): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(183): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(183): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(183): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(183): web_url("checkLogin_2") was successful, 92 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(193): web_url("info_2") started  	[MsgId: MMSG-26355]
+Create.c(193): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(193): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(193): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(193): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(193): web_url("info_2") was successful, 277 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(203): web_url("4_2") started  	[MsgId: MMSG-26355]
+Create.c(203): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(203): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(203): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(203): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(203): web_url("4_2") was successful, 52 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(213): web_url("countByState_2") started  	[MsgId: MMSG-26355]
+Create.c(213): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(213): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(213): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(213): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(213): web_url("countByState_2") was successful, 220 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(223): web_url("countByState_3") started  	[MsgId: MMSG-26355]
+Create.c(223): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(223): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(223): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(223): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(223): web_url("countByState_3") was successful, 220 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(233): web_custom_request("ticket_3") started  	[MsgId: MMSG-26355]
+Create.c(233): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(233): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(233): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(233): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(233): web_custom_request("ticket_3") was successful, 11771 body bytes, 316 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(245): web_custom_request("ticket_4") started  	[MsgId: MMSG-26355]
+Create.c(245): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(245): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(245): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(245): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(245): web_custom_request("ticket_4") was successful, 11771 body bytes, 316 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(257): Notify: Transaction "UC01_TC03_create_order" ended with a "Pass" status (Duration: 5.2264 Wasted Time: 0.1722).
+Ending action Create.
+Starting action Create.
+Create.c(4): Notify: Transaction "UC01_TC02_click_button_new_incident" started.
+Create.c(6): web_url("children") started  	[MsgId: MMSG-26355]
+Create.c(6): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(6): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(6): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(6): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(6): web_url("children") was successful, 907 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(16): Notify: Transaction "UC01_TC02_click_button_new_incident" ended with a "Pass" status (Duration: 0.1248 Wasted Time: 0.0205).
+Create.c(18): web_reg_save_param started  	[MsgId: MMSG-26355]
+Create.c(18): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Create.c(24): web_url("shops") started  	[MsgId: MMSG-26355]
+Create.c(24): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(24): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(24): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(24): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(24): Notify: Saving Parameter "shopID_1 = -1".
+Create.c(24): Notify: Saving Parameter "shopID_2 = -2".
+Create.c(24): Notify: Saving Parameter "shopID_3 = 4".
+Create.c(24): Notify: Saving Parameter "shopID_4 = 5".
+Create.c(24): Notify: Saving Parameter "shopID_5 = 1".
+Create.c(24): Notify: Saving Parameter "shopID_6 = 2".
+Create.c(24): Notify: Saving Parameter "shopID_count = 6".
+Create.c(24): web_url("shops") was successful, 1015 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(34): web_url("children_2") started  	[MsgId: MMSG-26355]
+Create.c(34): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(34): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(34): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(34): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(34): web_url("children_2") was successful, 907 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(44): Notify: Parameter Substitution: parameter "shopID_count" =  "6"
+Create.c(44): Notify: Parameter Substitution: parameter "shopID_4" =  "5"
+Create.c(44): Notify: Saving Parameter "shopIDRandom = 5".
+Create.c(46): web_reg_save_param started  	[MsgId: MMSG-26355]
+Create.c(46): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Create.c(52): web_url("treeview") started  	[MsgId: MMSG-26355]
+Create.c(52): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(52): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(52): Notify: Parameter Substitution: parameter "shopIDRandom" =  "5"
+Create.c(52): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(52): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(52): Notify: Saving Parameter "parentID_1 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_2 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_3 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_4 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_5 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_6 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_7 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_8 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_9 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_10 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_11 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_12 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_13 = 146".
+Create.c(52): Notify: Saving Parameter "parentID_14 = 147".
+Create.c(52): Notify: Saving Parameter "parentID_15 = 147".
+Create.c(52): Notify: Saving Parameter "parentID_16 = 147".
+Create.c(52): Notify: Saving Parameter "parentID_17 = 147".
+Create.c(52): Notify: Saving Parameter "parentID_18 = 147".
+Create.c(52): Notify: Saving Parameter "parentID_19 = 147".
+Create.c(52): Notify: Saving Parameter "parentID_20 = 147".
+Create.c(52): Notify: Saving Parameter "parentID_21 = 143".
+Create.c(52): Notify: Saving Parameter "parentID_22 = 144".
+Create.c(52): Notify: Saving Parameter "parentID_23 = 144".
+Create.c(52): Notify: Saving Parameter "parentID_24 = 144".
+Create.c(52): Notify: Saving Parameter "parentID_25 = 148".
+Create.c(52): Notify: Saving Parameter "parentID_26 = 148".
+Create.c(52): Notify: Saving Parameter "parentID_27 = 148".
+Create.c(52): Notify: Saving Parameter "parentID_28 = 148".
+Create.c(52): Notify: Saving Parameter "parentID_29 = 148".
+Create.c(52): Notify: Saving Parameter "parentID_30 = 148".
+Create.c(52): Notify: Saving Parameter "parentID_31 = 148".
+Create.c(52): Notify: Saving Parameter "parentID_32 = 148".
+Create.c(52): Notify: Saving Parameter "parentID_33 = 151".
+Create.c(52): Notify: Saving Parameter "parentID_34 = 149".
+Create.c(52): Notify: Saving Parameter "parentID_35 = 150".
+Create.c(52): Notify: Saving Parameter "parentID_36 = 153".
+Create.c(52): Notify: Saving Parameter "parentID_37 = 153".
+Create.c(52): Notify: Saving Parameter "parentID_38 = 152".
+Create.c(52): Notify: Saving Parameter "parentID_39 = 179".
+Create.c(52): Notify: Saving Parameter "parentID_40 = 179".
+Create.c(52): Notify: Saving Parameter "parentID_41 = 179".
+Create.c(52): Notify: Saving Parameter "parentID_42 = 179".
+Create.c(52): Notify: Saving Parameter "parentID_43 = 179".
+Create.c(52): Notify: Saving Parameter "parentID_44 = 180".
+Create.c(52): Notify: Saving Parameter "parentID_45 = 180".
+Create.c(52): Notify: Saving Parameter "parentID_46 = 180".
+Create.c(52): Notify: Saving Parameter "parentID_47 = 180".
+Create.c(52): Notify: Saving Parameter "parentID_48 = 180".
+Create.c(52): Notify: Saving Parameter "parentID_49 = 180".
+Create.c(52): Notify: Saving Parameter "parentID_50 = 181".
+Create.c(52): Notify: Saving Parameter "parentID_51 = 181".
+Create.c(52): Notify: Saving Parameter "parentID_52 = 181".
+Create.c(52): Notify: Saving Parameter "parentID_53 = 182".
+Create.c(52): Notify: Saving Parameter "parentID_54 = 183".
+Create.c(52): Notify: Saving Parameter "parentID_55 = 185".
+Create.c(52): Notify: Saving Parameter "parentID_56 = 185".
+Create.c(52): Notify: Saving Parameter "parentID_57 = 185".
+Create.c(52): Notify: Saving Parameter "parentID_58 = 185".
+Create.c(52): Notify: Saving Parameter "parentID_59 = 184".
+Create.c(52): Notify: Saving Parameter "parentID_60 = 184".
+Create.c(52): Notify: Saving Parameter "parentID_61 = 184".
+Create.c(52): Notify: Saving Parameter "parentID_62 = 184".
+Create.c(52): Notify: Saving Parameter "parentID_63 = 184".
+Create.c(52): Notify: Saving Parameter "parentID_64 = 184".
+Create.c(52): Notify: Saving Parameter "parentID_65 = 186".
+Create.c(52): Notify: Saving Parameter "parentID_66 = 187".
+Create.c(52): Notify: Saving Parameter "parentID_67 = 188".
+Create.c(52): Notify: Saving Parameter "parentID_68 = 189".
+Create.c(52): Notify: Saving Parameter "parentID_69 = 189".
+Create.c(52): Notify: Saving Parameter "parentID_70 = 189".
+Create.c(52): Notify: Saving Parameter "parentID_71 = 189".
+Create.c(52): Notify: Saving Parameter "parentID_72 = 190".
+Create.c(52): Notify: Saving Parameter "parentID_73 = 190".
+Create.c(52): Notify: Saving Parameter "parentID_74 = 190".
+Create.c(52): Notify: Saving Parameter "parentID_75 = 191".
+Create.c(52): Notify: Saving Parameter "parentID_76 = 191".
+Create.c(52): Notify: Saving Parameter "parentID_77 = 191".
+Create.c(52): Notify: Saving Parameter "parentID_78 = 191".
+Create.c(52): Notify: Saving Parameter "parentID_79 = 191".
+Create.c(52): Notify: Saving Parameter "parentID_80 = 192".
+Create.c(52): Notify: Saving Parameter "parentID_81 = 192".
+Create.c(52): Notify: Saving Parameter "parentID_82 = 192".
+Create.c(52): Notify: Saving Parameter "parentID_83 = 193".
+Create.c(52): Notify: Saving Parameter "parentID_84 = 193".
+Create.c(52): Notify: Saving Parameter "parentID_85 = 193".
+Create.c(52): Notify: Saving Parameter "parentID_86 = 193".
+Create.c(52): Notify: Saving Parameter "parentID_87 = 194".
+Create.c(52): Notify: Saving Parameter "parentID_88 = 194".
+Create.c(52): Notify: Saving Parameter "parentID_89 = 194".
+Create.c(52): Notify: Saving Parameter "parentID_90 = 195".
+Create.c(52): Notify: Saving Parameter "parentID_91 = 195".
+Create.c(52): Notify: Saving Parameter "parentID_92 = 195".
+Create.c(52): Notify: Saving Parameter "parentID_93 = 195".
+Create.c(52): Notify: Saving Parameter "parentID_94 = 195".
+Create.c(52): Notify: Saving Parameter "parentID_95 = 196".
+Create.c(52): Notify: Saving Parameter "parentID_96 = 196".
+Create.c(52): Notify: Saving Parameter "parentID_97 = 196".
+Create.c(52): Notify: Saving Parameter "parentID_98 = 197".
+Create.c(52): Notify: Saving Parameter "parentID_99 = 197".
+Create.c(52): Notify: Saving Parameter "parentID_100 = 197".
+Create.c(52): Notify: Saving Parameter "parentID_101 = 198".
+Create.c(52): Notify: Saving Parameter "parentID_102 = 198".
+Create.c(52): Notify: Saving Parameter "parentID_103 = 198".
+Create.c(52): Notify: Saving Parameter "parentID_104 = 198".
+Create.c(52): Notify: Saving Parameter "parentID_105 = 198".
+Create.c(52): Notify: Saving Parameter "parentID_106 = 199".
+Create.c(52): Notify: Saving Parameter "parentID_107 = 199".
+Create.c(52): Notify: Saving Parameter "parentID_108 = 199".
+Create.c(52): Notify: Saving Parameter "parentID_109 = 200".
+Create.c(52): Notify: Saving Parameter "parentID_110 = 200".
+Create.c(52): Notify: Saving Parameter "parentID_111 = 200".
+Create.c(52): Notify: Saving Parameter "parentID_112 = 200".
+Create.c(52): Notify: Saving Parameter "parentID_113 = 201".
+Create.c(52): Notify: Saving Parameter "parentID_114 = 201".
+Create.c(52): Notify: Saving Parameter "parentID_115 = 201".
+Create.c(52): Notify: Saving Parameter "parentID_116 = 201".
+Create.c(52): Notify: Saving Parameter "parentID_117 = 201".
+Create.c(52): Notify: Saving Parameter "parentID_118 = 201".
+Create.c(52): Notify: Saving Parameter "parentID_119 = 201".
+Create.c(52): Notify: Saving Parameter "parentID_120 = 202".
+Create.c(52): Notify: Saving Parameter "parentID_121 = 202".
+Create.c(52): Notify: Saving Parameter "parentID_122 = 202".
+Create.c(52): Notify: Saving Parameter "parentID_123 = 202".
+Create.c(52): Notify: Saving Parameter "parentID_124 = 202".
+Create.c(52): Notify: Saving Parameter "parentID_125 = 202".
+Create.c(52): Notify: Saving Parameter "parentID_126 = 202".
+Create.c(52): Notify: Saving Parameter "parentID_127 = 202".
+Create.c(52): Notify: Saving Parameter "parentID_128 = 202".
+Create.c(52): Notify: Saving Parameter "parentID_129 = 202".
+Create.c(52): Notify: Saving Parameter "parentID_130 = 202".
+Create.c(52): Notify: Saving Parameter "parentID_131 = 203".
+Create.c(52): Notify: Saving Parameter "parentID_132 = 203".
+Create.c(52): Notify: Saving Parameter "parentID_133 = 203".
+Create.c(52): Notify: Saving Parameter "parentID_134 = 204".
+Create.c(52): Notify: Saving Parameter "parentID_135 = 204".
+Create.c(52): Notify: Saving Parameter "parentID_136 = 204".
+Create.c(52): Notify: Saving Parameter "parentID_137 = 204".
+Create.c(52): Notify: Saving Parameter "parentID_138 = 204".
+Create.c(52): Notify: Saving Parameter "parentID_139 = 204".
+Create.c(52): Notify: Saving Parameter "parentID_140 = 204".
+Create.c(52): Notify: Saving Parameter "parentID_141 = 204".
+Create.c(52): Notify: Saving Parameter "parentID_142 = 205".
+Create.c(52): Notify: Saving Parameter "parentID_143 = 205".
+Create.c(52): Notify: Saving Parameter "parentID_144 = 205".
+Create.c(52): Notify: Saving Parameter "parentID_145 = 205".
+Create.c(52): Notify: Saving Parameter "parentID_146 = 205".
+Create.c(52): Notify: Saving Parameter "parentID_147 = 205".
+Create.c(52): Notify: Saving Parameter "parentID_148 = 206".
+Create.c(52): Notify: Saving Parameter "parentID_149 = 206".
+Create.c(52): Notify: Saving Parameter "parentID_150 = 206".
+Create.c(52): Notify: Saving Parameter "parentID_151 = 206".
+Create.c(52): Notify: Saving Parameter "parentID_152 = 206".
+Create.c(52): Notify: Saving Parameter "parentID_153 = 206".
+Create.c(52): Notify: Saving Parameter "parentID_154 = 206".
+Create.c(52): Notify: Saving Parameter "parentID_155 = 206".
+Create.c(52): Notify: Saving Parameter "parentID_156 = 154".
+Create.c(52): Notify: Saving Parameter "parentID_157 = 154".
+Create.c(52): Notify: Saving Parameter "parentID_158 = 154".
+Create.c(52): Notify: Saving Parameter "parentID_159 = 155".
+Create.c(52): Notify: Saving Parameter "parentID_160 = 155".
+Create.c(52): Notify: Saving Parameter "parentID_161 = 155".
+Create.c(52): Notify: Saving Parameter "parentID_162 = 156".
+Create.c(52): Notify: Saving Parameter "parentID_163 = 156".
+Create.c(52): Notify: Saving Parameter "parentID_164 = 156".
+Create.c(52): Notify: Saving Parameter "parentID_165 = 156".
+Create.c(52): Notify: Saving Parameter "parentID_166 = 157".
+Create.c(52): Notify: Saving Parameter "parentID_167 = 157".
+Create.c(52): Notify: Saving Parameter "parentID_168 = 157".
+Create.c(52): Notify: Saving Parameter "parentID_169 = 157".
+Create.c(52): Notify: Saving Parameter "parentID_170 = 157".
+Create.c(52): Notify: Saving Parameter "parentID_171 = 158".
+Create.c(52): Notify: Saving Parameter "parentID_172 = 158".
+Create.c(52): Notify: Saving Parameter "parentID_173 = 158".
+Create.c(52): Notify: Saving Parameter "parentID_174 = 159".
+Create.c(52): Notify: Saving Parameter "parentID_175 = 159".
+Create.c(52): Notify: Saving Parameter "parentID_176 = 160".
+Create.c(52): Notify: Saving Parameter "parentID_177 = 160".
+Create.c(52): Notify: Saving Parameter "parentID_178 = 161".
+Create.c(52): Notify: Saving Parameter "parentID_179 = 161".
+Create.c(52): Notify: Saving Parameter "parentID_180 = 161".
+Create.c(52): Notify: Saving Parameter "parentID_181 = 162".
+Create.c(52): Notify: Saving Parameter "parentID_182 = 164".
+Create.c(52): Notify: Saving Parameter "parentID_183 = 164".
+Create.c(52): Notify: Saving Parameter "parentID_184 = 165".
+Create.c(52): Notify: Saving Parameter "parentID_185 = 165".
+Create.c(52): Notify: Saving Parameter "parentID_186 = 166".
+Create.c(52): Notify: Saving Parameter "parentID_187 = 166".
+Create.c(52): Notify: Saving Parameter "parentID_188 = 163".
+Create.c(52): Notify: Saving Parameter "parentID_189 = 163".
+Create.c(52): Notify: Saving Parameter "parentID_190 = 163".
+Create.c(52): Notify: Saving Parameter "parentID_191 = 163".
+Create.c(52): Notify: Saving Parameter "parentID_192 = 167".
+Create.c(52): Notify: Saving Parameter "parentID_193 = 167".
+Create.c(52): Notify: Saving Parameter "parentID_194 = 167".
+Create.c(52): Notify: Saving Parameter "parentID_195 = 169".
+Create.c(52): Notify: Saving Parameter "parentID_196 = 169".
+Create.c(52): Notify: Saving Parameter "parentID_197 = 169".
+Create.c(52): Notify: Saving Parameter "parentID_198 = 169".
+Create.c(52): Notify: Saving Parameter "parentID_199 = 168".
+Create.c(52): Notify: Saving Parameter "parentID_200 = 168".
+Create.c(52): Notify: Saving Parameter "parentID_201 = 170".
+Create.c(52): Notify: Saving Parameter "parentID_202 = 171".
+Create.c(52): Notify: Saving Parameter "parentID_203 = 171".
+Create.c(52): Notify: Saving Parameter "parentID_204 = 171".
+Create.c(52): Notify: Saving Parameter "parentID_205 = 172".
+Create.c(52): Notify: Saving Parameter "parentID_206 = 172".
+Create.c(52): Notify: Saving Parameter "parentID_207 = 172".
+Create.c(52): Notify: Saving Parameter "parentID_208 = 172".
+Create.c(52): Notify: Saving Parameter "parentID_209 = 172".
+Create.c(52): Notify: Saving Parameter "parentID_210 = 173".
+Create.c(52): Notify: Saving Parameter "parentID_211 = 174".
+Create.c(52): Notify: Saving Parameter "parentID_212 = 174".
+Create.c(52): Notify: Saving Parameter "parentID_213 = 174".
+Create.c(52): Notify: Saving Parameter "parentID_214 = 175".
+Create.c(52): Notify: Saving Parameter "parentID_215 = 175".
+Create.c(52): Notify: Saving Parameter "parentID_216 = 178".
+Create.c(52): Notify: Saving Parameter "parentID_217 = 176".
+Create.c(52): Notify: Saving Parameter "parentID_218 = 176".
+Create.c(52): Notify: Saving Parameter "parentID_219 = 177".
+Create.c(52): Notify: Saving Parameter "parentID_220 = 217".
+Create.c(52): Notify: Saving Parameter "parentID_221 = 217".
+Create.c(52): Notify: Saving Parameter "parentID_222 = 7".
+Create.c(52): Notify: Saving Parameter "parentID_223 = 207".
+Create.c(52): Notify: Saving Parameter "parentID_224 = 207".
+Create.c(52): Notify: Saving Parameter "parentID_225 = 207".
+Create.c(52): Notify: Saving Parameter "parentID_226 = 207".
+Create.c(52): Notify: Saving Parameter "parentID_227 = 208".
+Create.c(52): Notify: Saving Parameter "parentID_228 = 208".
+Create.c(52): Notify: Saving Parameter "parentID_229 = 209".
+Create.c(52): Notify: Saving Parameter "parentID_230 = 216".
+Create.c(52): Notify: Saving Parameter "parentID_count = 230".
+Create.c(52): web_url("treeview") was successful, 75659 body bytes, 316 header bytes, 84 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(62): Notify: Parameter Substitution: parameter "parentID_count" =  "230"
+Create.c(62): Notify: Parameter Substitution: parameter "parentID_1" =  "146"
+Create.c(62): Notify: Saving Parameter "parentIDRandom = 146".
+Create.c(64): web_url("children_3") started  	[MsgId: MMSG-26355]
+Create.c(64): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(64): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(64): Notify: Parameter Substitution: parameter "parentIDRandom" =  "146"
+Create.c(64): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(64): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(64): web_url("children_3") was successful, 2 body bytes, 316 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(74): web_reg_save_param started  	[MsgId: MMSG-26355]
+Create.c(74): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Create.c(80): web_url("service") started  	[MsgId: MMSG-26355]
+Create.c(80): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(80): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(80): Notify: Parameter Substitution: parameter "parentIDRandom" =  "146"
+Create.c(80): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(80): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(80): Notify: Saving Parameter "serviceID_1 = 2782".
+Create.c(80): Notify: Saving Parameter "serviceID_2 = 2785".
+Create.c(80): Notify: Saving Parameter "serviceID_3 = 2786".
+Create.c(80): Notify: Saving Parameter "serviceID_4 = 2787".
+Create.c(80): Notify: Saving Parameter "serviceID_5 = 2788".
+Create.c(80): Notify: Saving Parameter "serviceID_6 = 2789".
+Create.c(80): Notify: Saving Parameter "serviceID_7 = 2790".
+Create.c(80): Notify: Saving Parameter "serviceID_8 = 2791".
+Create.c(80): Notify: Saving Parameter "serviceID_9 = 2792".
+Create.c(80): Notify: Saving Parameter "serviceID_10 = 2793".
+Create.c(80): Notify: Saving Parameter "serviceID_11 = 2794".
+Create.c(80): Notify: Saving Parameter "serviceID_12 = 2795".
+Create.c(80): Notify: Saving Parameter "serviceID_13 = 2796".
+Create.c(80): Notify: Saving Parameter "serviceID_count = 13".
+Create.c(80): web_url("service") was successful, 3225 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(90): Notify: Parameter Substitution: parameter "serviceID_count" =  "13"
+Create.c(90): Notify: Parameter Substitution: parameter "serviceID_11" =  "2794"
+Create.c(90): Notify: Saving Parameter "serviceIDRandom = 2794".
+Create.c(92): web_url("{parentIDRandom}") started  	[MsgId: MMSG-26355]
+Create.c(92): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(92): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(92): Notify: Parameter Substitution: parameter "parentIDRandom" =  "146"
+Create.c(92): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(92): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(92): web_url("{parentIDRandom}") was successful, 214 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(102): web_reg_save_param started  	[MsgId: MMSG-26355]
+Create.c(102): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Create.c(109): web_url("inventoryNumbers") started  	[MsgId: MMSG-26355]
+Create.c(109): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(109): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(109): Notify: Parameter Substitution: parameter "serviceIDRandom" =  "2794"
+Create.c(109): Notify: Parameter Substitution: parameter "shopIDRandom" =  "5"
+Create.c(109): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(109): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(109): Notify: Saving Parameter "InventoryNumberID_1 = 9".
+Create.c(109): Notify: Saving Parameter "InventoryNumberID_2 = 10".
+Create.c(109): Notify: Saving Parameter "InventoryNumberID_3 = 11".
+Create.c(109): Notify: Saving Parameter "InventoryNumberID_count = 3".
+Create.c(109): web_url("inventoryNumbers") was successful, 235 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(120): web_reg_save_param started  	[MsgId: MMSG-26355]
+Create.c(120): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Create.c(125): web_url("inventoryNumbers_2") started  	[MsgId: MMSG-26355]
+Create.c(125): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(125): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(125): Notify: Parameter Substitution: parameter "shopIDRandom" =  "5"
+Create.c(125): Notify: Parameter Substitution: parameter "serviceIDRandom" =  "2794"
+Create.c(125): Notify: Parameter Substitution: parameter "serviceIDRandom" =  "2794"
+Create.c(125): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(125): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(125): Notify: Saving Parameter "InventoryID = 3".
+Create.c(125): web_url("inventoryNumbers_2") was successful, 235 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(137): Notify: Transaction "UC01_TC03_create_order" started.
+Create.c(139): Notify: Parameter Substitution: parameter "InventoryID" =  "3"
+Create.c(156): Notify: Parameter Substitution: parameter "InventoryNumberID_count" =  "3"
+Create.c(156): Notify: Parameter Substitution: parameter "InventoryNumberID_1" =  "9"
+Create.c(156): Notify: Saving Parameter "InventoryNumberRez = 9".
+Create.c(158): web_custom_request("ticket_2") started  	[MsgId: MMSG-26355]
+Create.c(158): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(158): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(158): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(158): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(158): Notify: Parameter Substitution: parameter "serviceIDRandom" =  "2794"
+Create.c(158): Notify: Parameter Substitution: parameter "InventoryNumberRez" =  "9"
+Create.c(158): Notify: Parameter Substitution: parameter "shopIDRandom" =  "5"
+Create.c(158): web_custom_request("ticket_2") was successful, 1011 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(174): web_url("/_3") started  	[MsgId: MMSG-26355]
+Create.c(174): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(174): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(174): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(174): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(174): Retrieving data from cache for "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26558]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/css/core/material_icons.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/css/core/materialize.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/css/core/uploadfile.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/css/core/quill.snow.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/css/core/select2.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/css/core/ee-file-upload.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/css/style.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/css/company_2.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/legacy.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/jquery-3.1.1.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/clamp.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/jquery.cookie.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/jquery.uploadfile.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/jquery.maskedinput.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/jquery.ee.router.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/select2.full.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/readmore.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/dust.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/dust-helpers.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/custom-helpers.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/materialize.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/materialize-select.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/materialize-pagination.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/polyphills.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/helpers.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/index.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): Resource "http://learning2.pflb.ru:56902/js/core/materialTable.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(174): web_url("/_3") was successful, 0 body bytes, 0 header bytes  	[MsgId: MMSG-26386]
+Create.c(183): web_url("checkLogin_2") started  	[MsgId: MMSG-26355]
+Create.c(183): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(183): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(183): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(183): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(183): web_url("checkLogin_2") was successful, 92 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(193): web_url("info_2") started  	[MsgId: MMSG-26355]
+Create.c(193): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(193): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(193): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(193): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(193): web_url("info_2") was successful, 277 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(203): web_url("4_2") started  	[MsgId: MMSG-26355]
+Create.c(203): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(203): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(203): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(203): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(203): web_url("4_2") was successful, 52 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(213): web_url("countByState_2") started  	[MsgId: MMSG-26355]
+Create.c(213): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(213): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(213): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(213): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(213): web_url("countByState_2") was successful, 220 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(223): web_url("countByState_3") started  	[MsgId: MMSG-26355]
+Create.c(223): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(223): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(223): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(223): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(223): web_url("countByState_3") was successful, 220 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(233): web_custom_request("ticket_3") started  	[MsgId: MMSG-26355]
+Create.c(233): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(233): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(233): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(233): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(233): web_custom_request("ticket_3") was successful, 12041 body bytes, 316 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(245): web_custom_request("ticket_4") started  	[MsgId: MMSG-26355]
+Create.c(245): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(245): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(245): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Create.c(245): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Create.c(245): web_custom_request("ticket_4") was successful, 12041 body bytes, 316 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Create.c(257): Notify: Transaction "UC01_TC03_create_order" ended with a "Pass" status (Duration: 4.6027 Wasted Time: 0.1717).
+Ending action Create.
+Starting action Comment.
+Comment.c(3): Notify: Transaction "UC03_TC02_All_Tasks" started.
+Comment.c(5): web_url("countByState_2") started  	[MsgId: MMSG-26355]
+Comment.c(5): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(5): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(5): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(5): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(5): web_url("countByState_2") was successful, 172 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Comment.c(15): web_custom_request("task") started  	[MsgId: MMSG-26355]
+Comment.c(15): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(15): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(15): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(15): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(15): web_custom_request("task") was successful, 15115 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Comment.c(27): Notify: Transaction "UC03_TC02_All_Tasks" ended with a "Pass" status (Duration: 0.8549 Wasted Time: 0.0406).
+Comment.c(29): Notify: Transaction "UC03_TC03_Choose_Task" started.
+Comment.c(31): Notify: Parameter Substitution: parameter "ticketID_count" =  "100"
+Comment.c(31): Notify: Parameter Substitution: parameter "ticketID_12" =  "150326"
+Comment.c(31): Notify: Saving Parameter "ticketIDRandom = 150326".
+Comment.c(33): web_url("{ticketIDRandom}") started  	[MsgId: MMSG-26355]
+Comment.c(33): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(33): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(33): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(33): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(33): web_url("{ticketIDRandom}") was successful, 1346 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Comment.c(43): web_url("checkLogin_2") started  	[MsgId: MMSG-26355]
+Comment.c(43): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(43): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(43): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(43): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(43): web_url("checkLogin_2") was successful, 92 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Comment.c(53): web_url("comment") started  	[MsgId: MMSG-26355]
+Comment.c(53): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(53): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(53): Notify: Parameter Substitution: parameter "ticketIDRandom" =  "150326"
+Comment.c(53): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(53): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(53): web_url("comment") was successful, 2 body bytes, 316 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Comment.c(63): Notify: Transaction "UC03_TC03_Choose_Task" ended with a "Pass" status (Duration: 1.5553 Wasted Time: 0.0536).
+Comment.c(65): Notify: Transaction "UC03_TC04_Write_Comment" started.
+Comment.c(67): web_custom_request("comment_2") started  	[MsgId: MMSG-26355]
+Comment.c(67): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(67): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(67): Notify: Parameter Substitution: parameter "ticketIDRandom" =  "150326"
+Comment.c(67): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(67): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(67): Notify: Parameter Substitution: parameter "Comment" =  "It's so nice"
+Comment.c(67): web_custom_request("comment_2") was successful, 120 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Comment.c(80): web_url("comment_3") started  	[MsgId: MMSG-26355]
+Comment.c(80): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(80): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(80): Notify: Parameter Substitution: parameter "ticketIDRandom" =  "150326"
+Comment.c(80): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(80): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(80): web_url("comment_3") was successful, 169 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Comment.c(90): Notify: Transaction "UC03_TC04_Write_Comment" ended with a "Pass" status (Duration: 1.2387 Wasted Time: 0.0391).
+Ending action Comment.
+Starting action Comment.
+Comment.c(3): Notify: Transaction "UC03_TC02_All_Tasks" started.
+Comment.c(5): web_url("countByState_2") started  	[MsgId: MMSG-26355]
+Comment.c(5): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(5): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(5): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(5): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(5): web_url("countByState_2") was successful, 172 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Comment.c(15): web_custom_request("task") started  	[MsgId: MMSG-26355]
+Comment.c(15): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(15): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(15): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(15): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(15): web_custom_request("task") was successful, 15115 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Comment.c(27): Notify: Transaction "UC03_TC02_All_Tasks" ended with a "Pass" status (Duration: 0.7983 Wasted Time: 0.0414).
+Comment.c(29): Notify: Transaction "UC03_TC03_Choose_Task" started.
+Comment.c(31): Notify: Parameter Substitution: parameter "ticketID_count" =  "100"
+Comment.c(31): Notify: Parameter Substitution: parameter "ticketID_80" =  "149521"
+Comment.c(31): Notify: Saving Parameter "ticketIDRandom = 149521".
+Comment.c(33): web_url("{ticketIDRandom}") started  	[MsgId: MMSG-26355]
+Comment.c(33): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(33): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(33): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(33): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(33): web_url("{ticketIDRandom}") was successful, 1346 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Comment.c(43): web_url("checkLogin_2") started  	[MsgId: MMSG-26355]
+Comment.c(43): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(43): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(43): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(43): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(43): web_url("checkLogin_2") was successful, 92 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Comment.c(53): web_url("comment") started  	[MsgId: MMSG-26355]
+Comment.c(53): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(53): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(53): Notify: Parameter Substitution: parameter "ticketIDRandom" =  "149521"
+Comment.c(53): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(53): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(53): web_url("comment") was successful, 2 body bytes, 316 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Comment.c(63): Notify: Transaction "UC03_TC03_Choose_Task" ended with a "Pass" status (Duration: 1.5375 Wasted Time: 0.0541).
+Comment.c(65): Notify: Transaction "UC03_TC04_Write_Comment" started.
+Comment.c(67): web_custom_request("comment_2") started  	[MsgId: MMSG-26355]
+Comment.c(67): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(67): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(67): Notify: Parameter Substitution: parameter "ticketIDRandom" =  "149521"
+Comment.c(67): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(67): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(67): Notify: Parameter Substitution: parameter "Comment" =  "It's so nice"
+Comment.c(67): web_custom_request("comment_2") was successful, 120 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Comment.c(80): web_url("comment_3") started  	[MsgId: MMSG-26355]
+Comment.c(80): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(80): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(80): Notify: Parameter Substitution: parameter "ticketIDRandom" =  "149521"
+Comment.c(80): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(80): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(80): web_url("comment_3") was successful, 169 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Comment.c(90): Notify: Transaction "UC03_TC04_Write_Comment" ended with a "Pass" status (Duration: 1.2320 Wasted Time: 0.0385).
+Ending action Comment.
+Starting action Comment.
+Comment.c(3): Notify: Transaction "UC03_TC02_All_Tasks" started.
+Comment.c(5): web_url("countByState_2") started  	[MsgId: MMSG-26355]
+Comment.c(5): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(5): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(5): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(5): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(5): web_url("countByState_2") was successful, 172 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Comment.c(15): web_custom_request("task") started  	[MsgId: MMSG-26355]
+Comment.c(15): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(15): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(15): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(15): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(15): web_custom_request("task") was successful, 15115 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Comment.c(27): Notify: Transaction "UC03_TC02_All_Tasks" ended with a "Pass" status (Duration: 0.8273 Wasted Time: 0.0408).
+Comment.c(29): Notify: Transaction "UC03_TC03_Choose_Task" started.
+Comment.c(31): Notify: Parameter Substitution: parameter "ticketID_count" =  "100"
+Comment.c(31): Notify: Parameter Substitution: parameter "ticketID_38" =  "149748"
+Comment.c(31): Notify: Saving Parameter "ticketIDRandom = 149748".
+Comment.c(33): web_url("{ticketIDRandom}") started  	[MsgId: MMSG-26355]
+Comment.c(33): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(33): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(33): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(33): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(33): web_url("{ticketIDRandom}") was successful, 1346 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Comment.c(43): web_url("checkLogin_2") started  	[MsgId: MMSG-26355]
+Comment.c(43): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(43): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(43): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(43): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(43): web_url("checkLogin_2") was successful, 92 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Comment.c(53): web_url("comment") started  	[MsgId: MMSG-26355]
+Comment.c(53): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(53): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(53): Notify: Parameter Substitution: parameter "ticketIDRandom" =  "149748"
+Comment.c(53): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(53): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(53): web_url("comment") was successful, 3703 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Comment.c(63): Notify: Transaction "UC03_TC03_Choose_Task" ended with a "Pass" status (Duration: 1.4297 Wasted Time: 0.0554).
+Comment.c(65): Notify: Transaction "UC03_TC04_Write_Comment" started.
+Comment.c(67): web_custom_request("comment_2") started  	[MsgId: MMSG-26355]
+Comment.c(67): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(67): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(67): Notify: Parameter Substitution: parameter "ticketIDRandom" =  "149748"
+Comment.c(67): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(67): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(67): Notify: Parameter Substitution: parameter "Comment" =  "It's so nice"
+Comment.c(67): web_custom_request("comment_2") was successful, 120 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Comment.c(80): web_url("comment_3") started  	[MsgId: MMSG-26355]
+Comment.c(80): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(80): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(80): Notify: Parameter Substitution: parameter "ticketIDRandom" =  "149748"
+Comment.c(80): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Comment.c(80): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Comment.c(80): web_url("comment_3") was successful, 3871 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Comment.c(90): Notify: Transaction "UC03_TC04_Write_Comment" ended with a "Pass" status (Duration: 1.3191 Wasted Time: 0.0413).
+Ending action Comment.
+Starting action Close.
+Close.c(4): Notify: Transaction "UC04_TC02_All_Tasks" started.
+Close.c(6): web_url("countByState_2") started  	[MsgId: MMSG-26355]
+Close.c(6): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(6): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(6): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(6): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(6): web_url("countByState_2") was successful, 172 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(15): web_custom_request("task") started  	[MsgId: MMSG-26355]
+Close.c(15): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(15): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(15): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(15): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(15): web_custom_request("task") was successful, 73158 body bytes, 316 header bytes, 77 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(26): Notify: Transaction "UC04_TC02_All_Tasks" ended with a "Pass" status (Duration: 1.5666 Wasted Time: 0.0477).
+Close.c(28): Notify: Transaction "UC04_TC03_Choose_Task" started.
+Close.c(30): Notify: Parameter Substitution: parameter "ticketID_count" =  "100"
+Close.c(30): Notify: Parameter Substitution: parameter "ticketID_30" =  "150155"
+Close.c(30): Notify: Saving Parameter "ticketIDRandom = 150155".
+Close.c(32): web_url("{ticketIDRandom}") started  	[MsgId: MMSG-26355]
+Close.c(32): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(32): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(32): Notify: Parameter Substitution: parameter "ticketIDRandom" =  "150155"
+Close.c(32): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(32): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(32): web_url("{ticketIDRandom}") was successful, 1337 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(41): web_url("checkLogin_2") started  	[MsgId: MMSG-26355]
+Close.c(41): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(41): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(41): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(41): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(41): web_url("checkLogin_2") was successful, 92 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(50): web_url("comment") started  	[MsgId: MMSG-26355]
+Close.c(50): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(50): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(50): Notify: Parameter Substitution: parameter "ticketIDRandom" =  "150155"
+Close.c(50): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(50): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(50): web_url("comment") was successful, 926 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(59): Notify: Transaction "UC04_TC03_Choose_Task" ended with a "Pass" status (Duration: 1.5440 Wasted Time: 0.0563).
+Close.c(61): Notify: Transaction "UC04_TC04_In_Incedent" started.
+Close.c(63): web_custom_request("{ticketIDRandom}_2") started  	[MsgId: MMSG-26355]
+Close.c(63): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(63): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(63): Notify: Parameter Substitution: parameter "ticketIDRandom" =  "150155"
+Close.c(63): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(63): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(63): web_custom_request("{ticketIDRandom}_2") was successful, 1351 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(73): web_url("comment_2") started  	[MsgId: MMSG-26355]
+Close.c(73): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(73): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(73): Notify: Parameter Substitution: parameter "ticketIDRandom" =  "150155"
+Close.c(73): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(73): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(73): web_url("comment_2") was successful, 926 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(82): Notify: Transaction "UC04_TC04_In_Incedent" ended with a "Pass" status (Duration: 1.5235 Wasted Time: 0.0417).
+Close.c(84): Notify: Transaction "UC04_TC05_Close_Incedent" started.
+Close.c(86): web_custom_request("solve") started  	[MsgId: MMSG-26355]
+Close.c(86): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(86): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(86): Notify: Parameter Substitution: parameter "ticketIDRandom" =  "150155"
+Close.c(86): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(86): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(86): web_custom_request("solve") was successful, 1200 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(97): web_url("/_2") started  	[MsgId: MMSG-26355]
+Close.c(97): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(97): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(97): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(97): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(97): Retrieving data from cache for "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26558]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/css/core/material_icons.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/css/core/materialize.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/css/core/uploadfile.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/css/core/quill.snow.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/css/core/select2.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/css/core/ee-file-upload.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/css/style.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/css/company_2.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/legacy.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/jquery-3.1.1.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/clamp.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/jquery.cookie.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/jquery.uploadfile.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/jquery.maskedinput.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/jquery.ee.router.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/select2.full.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/readmore.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/dust.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/dust-helpers.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/custom-helpers.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/materialize.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/materialize-select.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/materialize-pagination.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/polyphills.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/helpers.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/index.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/materialTable.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): web_url("/_2") was successful, 0 body bytes, 0 header bytes  	[MsgId: MMSG-26386]
+Close.c(105): web_url("checkLogin_3") started  	[MsgId: MMSG-26355]
+Close.c(105): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(105): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(105): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(105): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(105): web_url("checkLogin_3") was successful, 92 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(114): web_url("info_2") started  	[MsgId: MMSG-26355]
+Close.c(114): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(114): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(114): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(114): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(114): web_url("info_2") was successful, 277 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(123): web_url("4_2") started  	[MsgId: MMSG-26355]
+Close.c(123): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(123): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(123): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(123): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(123): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="http://learning2.pflb.ru:56902/api/ticket/countByState/4"  	[MsgId: MMSG-26548]
+Close.c(123): web_url("4_2") was successful, 52 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(131): web_url("countByState_3") started  	[MsgId: MMSG-26355]
+Close.c(131): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(131): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(131): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(131): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(131): web_url("countByState_3") was successful, 220 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(140): web_url("countByState_4") started  	[MsgId: MMSG-26355]
+Close.c(140): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(140): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(140): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(140): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(140): web_url("countByState_4") was successful, 172 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(149): web_custom_request("task_2") started  	[MsgId: MMSG-26355]
+Close.c(149): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(149): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(149): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(149): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(149): web_custom_request("task_2") was successful, 15115 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(160): web_custom_request("ticket_2") started  	[MsgId: MMSG-26355]
+Close.c(160): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(160): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(160): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(160): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(160): web_custom_request("ticket_2") was successful, 12041 body bytes, 316 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(171): Notify: Transaction "UC04_TC05_Close_Incedent" ended with a "Pass" status (Duration: 3.6222 Wasted Time: 0.1847).
+Ending action Close.
+Starting action Close.
+Close.c(4): Notify: Transaction "UC04_TC02_All_Tasks" started.
+Close.c(6): web_url("countByState_2") started  	[MsgId: MMSG-26355]
+Close.c(6): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(6): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(6): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(6): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(6): web_url("countByState_2") was successful, 172 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(15): web_custom_request("task") started  	[MsgId: MMSG-26355]
+Close.c(15): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(15): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(15): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(15): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(15): web_custom_request("task") was successful, 73250 body bytes, 316 header bytes, 77 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(26): Notify: Transaction "UC04_TC02_All_Tasks" ended with a "Pass" status (Duration: 1.6001 Wasted Time: 0.0482).
+Close.c(28): Notify: Transaction "UC04_TC03_Choose_Task" started.
+Close.c(30): Notify: Parameter Substitution: parameter "ticketID_count" =  "100"
+Close.c(30): Notify: Parameter Substitution: parameter "ticketID_4" =  "150338"
+Close.c(30): Notify: Saving Parameter "ticketIDRandom = 150338".
+Close.c(32): web_url("{ticketIDRandom}") started  	[MsgId: MMSG-26355]
+Close.c(32): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(32): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(32): Notify: Parameter Substitution: parameter "ticketIDRandom" =  "150338"
+Close.c(32): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(32): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(32): web_url("{ticketIDRandom}") was successful, 1748 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(41): web_url("checkLogin_2") started  	[MsgId: MMSG-26355]
+Close.c(41): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(41): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(41): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(41): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(41): web_url("checkLogin_2") was successful, 92 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(50): web_url("comment") started  	[MsgId: MMSG-26355]
+Close.c(50): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(50): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(50): Notify: Parameter Substitution: parameter "ticketIDRandom" =  "150338"
+Close.c(50): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(50): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(50): web_url("comment") was successful, 186 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(59): Notify: Transaction "UC04_TC03_Choose_Task" ended with a "Pass" status (Duration: 1.7357 Wasted Time: 0.0570).
+Close.c(61): Notify: Transaction "UC04_TC04_In_Incedent" started.
+Close.c(63): web_custom_request("{ticketIDRandom}_2") started  	[MsgId: MMSG-26355]
+Close.c(63): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(63): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(63): Notify: Parameter Substitution: parameter "ticketIDRandom" =  "150338"
+Close.c(63): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(63): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(63): web_custom_request("{ticketIDRandom}_2") was successful, 1762 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(73): web_url("comment_2") started  	[MsgId: MMSG-26355]
+Close.c(73): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(73): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(73): Notify: Parameter Substitution: parameter "ticketIDRandom" =  "150338"
+Close.c(73): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(73): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(73): web_url("comment_2") was successful, 186 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(82): Notify: Transaction "UC04_TC04_In_Incedent" ended with a "Pass" status (Duration: 1.5919 Wasted Time: 0.0384).
+Close.c(84): Notify: Transaction "UC04_TC05_Close_Incedent" started.
+Close.c(86): web_custom_request("solve") started  	[MsgId: MMSG-26355]
+Close.c(86): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(86): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(86): Notify: Parameter Substitution: parameter "ticketIDRandom" =  "150338"
+Close.c(86): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(86): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(86): web_custom_request("solve") was successful, 1611 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(97): web_url("/_2") started  	[MsgId: MMSG-26355]
+Close.c(97): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(97): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(97): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(97): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(97): Retrieving data from cache for "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26558]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/css/core/material_icons.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/css/core/materialize.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/css/core/uploadfile.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/css/core/quill.snow.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/css/core/select2.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/css/core/ee-file-upload.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/css/style.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/css/company_2.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/legacy.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/jquery-3.1.1.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/clamp.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/jquery.cookie.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/jquery.uploadfile.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/jquery.maskedinput.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/jquery.ee.router.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/select2.full.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/readmore.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/dust.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/dust-helpers.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/custom-helpers.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/materialize.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/materialize-select.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/materialize-pagination.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/polyphills.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/helpers.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/index.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): Resource "http://learning2.pflb.ru:56902/js/core/materialTable.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Close.c(97): web_url("/_2") was successful, 0 body bytes, 0 header bytes  	[MsgId: MMSG-26386]
+Close.c(105): web_url("checkLogin_3") started  	[MsgId: MMSG-26355]
+Close.c(105): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(105): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(105): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(105): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(105): web_url("checkLogin_3") was successful, 92 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(114): web_url("info_2") started  	[MsgId: MMSG-26355]
+Close.c(114): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(114): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(114): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(114): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(114): web_url("info_2") was successful, 277 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(123): web_url("4_2") started  	[MsgId: MMSG-26355]
+Close.c(123): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(123): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(123): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(123): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(123): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="http://learning2.pflb.ru:56902/api/ticket/countByState/4"  	[MsgId: MMSG-26548]
+Close.c(123): web_url("4_2") was successful, 52 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(131): web_url("countByState_3") started  	[MsgId: MMSG-26355]
+Close.c(131): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(131): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(131): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(131): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(131): web_url("countByState_3") was successful, 220 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(140): web_url("countByState_4") started  	[MsgId: MMSG-26355]
+Close.c(140): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(140): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(140): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(140): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(140): web_url("countByState_4") was successful, 172 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(149): web_custom_request("task_2") started  	[MsgId: MMSG-26355]
+Close.c(149): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(149): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(149): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(149): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(149): web_custom_request("task_2") was successful, 14691 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(160): web_custom_request("ticket_2") started  	[MsgId: MMSG-26355]
+Close.c(160): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(160): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(160): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+Close.c(160): Notify: Parameter Substitution: parameter "Port" =  "56902"
+Close.c(160): web_custom_request("ticket_2") was successful, 12041 body bytes, 316 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Close.c(171): Notify: Transaction "UC04_TC05_Close_Incedent" ended with a "Pass" status (Duration: 3.6267 Wasted Time: 0.1739).
+Ending action Close.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+vuser_end.c(3): Notify: Transaction "UC01_TC04_logout" started.
+vuser_end.c(5): web_url("logout") started  	[MsgId: MMSG-26355]
+vuser_end.c(5): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+vuser_end.c(5): Notify: Parameter Substitution: parameter "Port" =  "56902"
+vuser_end.c(5): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+vuser_end.c(5): Notify: Parameter Substitution: parameter "Port" =  "56902"
+vuser_end.c(5): Redirecting "http://learning2.pflb.ru:56902/api/logout" (redirection depth is 0)  	[MsgId: MMSG-26694]
+vuser_end.c(5): To location "http://learning2.pflb.ru:56902/login.html"  	[MsgId: MMSG-26693]
+vuser_end.c(5): Resource "http://learning2.pflb.ru:56902/css/core/material_icons.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(5): Resource "http://learning2.pflb.ru:56902/css/core/materialize.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(5): Resource "http://learning2.pflb.ru:56902/css/style.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(5): Resource "http://learning2.pflb.ru:56902/js/core/legacy.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(5): Resource "http://learning2.pflb.ru:56902/js/core/jquery-3.1.1.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(5): Resource "http://learning2.pflb.ru:56902/js/core/dust.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(5): Resource "http://learning2.pflb.ru:56902/js/core/jquery.cookie.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(5): Resource "http://learning2.pflb.ru:56902/js/core/materialize.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(5): Resource "http://learning2.pflb.ru:56902/js/page/authorisation.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(5): web_url("logout") was successful, 873 body bytes, 675 header bytes  	[MsgId: MMSG-26386]
+vuser_end.c(14): web_url("login_3") started  	[MsgId: MMSG-26355]
+vuser_end.c(14): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+vuser_end.c(14): Notify: Parameter Substitution: parameter "Port" =  "56902"
+vuser_end.c(14): Notify: Parameter Substitution: parameter "Host" =  "learning2.pflb.ru"
+vuser_end.c(14): Notify: Parameter Substitution: parameter "Port" =  "56902"
+vuser_end.c(14): Resource "http://learning2.pflb.ru:56902/css/core/material_icons.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(14): Resource "http://learning2.pflb.ru:56902/css/core/materialize.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(14): Resource "http://learning2.pflb.ru:56902/css/style.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(14): Resource "http://learning2.pflb.ru:56902/js/core/legacy.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(14): Resource "http://learning2.pflb.ru:56902/js/core/jquery-3.1.1.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(14): Resource "http://learning2.pflb.ru:56902/js/core/dust.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(14): Resource "http://learning2.pflb.ru:56902/js/core/jquery.cookie.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(14): Resource "http://learning2.pflb.ru:56902/js/core/materialize.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(14): Resource "http://learning2.pflb.ru:56902/js/page/authorisation.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+vuser_end.c(14): web_url("login_3") was successful, 873 body bytes, 414 header bytes  	[MsgId: MMSG-26386]
+vuser_end.c(24): Notify: Transaction "UC01_TC04_logout" ended with a "Pass" status (Duration: 0.1953 Wasted Time: 0.0628).
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 15244), ended OK."
