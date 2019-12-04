@@ -1,4 +1,4 @@
-POST /api/ticket/149845/solve/ HTTP/1.1
+POST /api/ticket/150265/solve/ HTTP/1.1
 Referer: http://learning2.pflb.ru:56902/
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko
 Accept-Encoding: gzip, deflate
@@ -6,6 +6,6 @@ Accept-Language: ru,en-US;q=0.7,en;q=0.3
 Accept: */*
 Connection: Keep-Alive
 Host: learning2.pflb.ru:56902
-Cookie: SESSION=cfb217fd-6921-46ad-b5ba-673e491a0dbf; currentUser=master
+Cookie: SESSION=c482dde4-2a67-4b83-b437-66a458eae835
 Content-Length: 0
 

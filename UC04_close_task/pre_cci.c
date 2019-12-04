@@ -1,4 +1,4 @@
-# 1 "d:\\\360\340\341\356\362\340\\git xdesk\\xdesk-nt\\uc04_close_task\\\\combined_UC04_close_task.c"
+# 1 "d:\\work\\git xdesk 2.0\\xdesk-nt\\uc04_close_task\\\\combined_UC04_close_task.c"
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -964,7 +964,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "d:\\\360\340\341\356\362\340\\git xdesk\\xdesk-nt\\uc04_close_task\\\\combined_UC04_close_task.c" 2
+# 1 "d:\\work\\git xdesk 2.0\\xdesk-nt\\uc04_close_task\\\\combined_UC04_close_task.c" 2
 
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1130,7 +1130,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "d:\\\360\340\341\356\362\340\\git xdesk\\xdesk-nt\\uc04_close_task\\\\combined_UC04_close_task.c" 2
+# 2 "d:\\work\\git xdesk 2.0\\xdesk-nt\\uc04_close_task\\\\combined_UC04_close_task.c" 2
 
 # 1 "globals.h" 1
 
@@ -2587,7 +2587,7 @@ void
  
 
 
-# 3 "d:\\\360\340\341\356\362\340\\git xdesk\\xdesk-nt\\uc04_close_task\\\\combined_UC04_close_task.c" 2
+# 3 "d:\\work\\git xdesk 2.0\\xdesk-nt\\uc04_close_task\\\\combined_UC04_close_task.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
@@ -2599,15 +2599,6 @@ vuser_init()
 		"Referer=", 
 		"Snapshot=t3.inf", 
 		"Mode=HTML", 
-		"EXTRARES",
-		"Url=/css/fonts/roboto/Roboto-Light.eot?", "ENDITEM", 
-		"Url=/css/fonts/roboto/Roboto-Thin.eot?", "ENDITEM", 
-		"Url=/css/fonts/roboto/Roboto-Regular.eot?", "ENDITEM", 
-		"Url=/css/fonts/roboto/Roboto-Medium.eot?", "ENDITEM", 
-		"Url=/css/fonts/roboto/Roboto-Bold.eot?", "ENDITEM", 
-		"Url=/favicon.ico", "Referer=", "ENDITEM", 
-		"Url=/tpl/login/login.dust", "ENDITEM", 
-		"Url=/images/logo_2.png", "ENDITEM", 
 		"LAST");
 
 	lr_start_transaction("UC04_TC01_login");
@@ -2624,32 +2615,13 @@ vuser_init()
 		"Name=rememberMe", "Value=false", "ENDITEM", 
 		"LAST");
 
-	web_add_cookie("currentUser={login}; DOMAIN={Host}");
-
-	web_url("learning2.pflb.ru:56902", 
+	web_url("/", 
 		"URL=http://{Host}:{Port}/", 
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=http://{Host}:{Port}/login", 
 		"Snapshot=t12.inf", 
 		"Mode=HTML", 
-		"EXTRARES",
-		"Url=/js/core/jqueryformplugin.js?_=1575134331417", "ENDITEM", 
-		"Url=/engineer/wrapper/wrapper.dust", "ENDITEM", 
-		"Url=/engineer/wrapper/wrapper.js", "ENDITEM", 
-		"Url=/css/fonts/material_icons/MaterialIcons-Regular.woff", "ENDITEM", 
-		"Url=/engineer/tickets/tickets.dust", "ENDITEM", 
-		"Url=/engineer/tickets/tickets.js", "ENDITEM", 
-		"Url=/engineer/tasks/tasks.dust", "ENDITEM", 
-		"Url=/engineer/tasks/tasks.js", "ENDITEM", 
-		"Url=/engineer/task/task.dust", "ENDITEM", 
-		"Url=/engineer/task/task.js", "ENDITEM", 
-		"Url=/images/logo-5ka.png", "ENDITEM", 
-		"Url=/tpl/support/ticketComment.dust", "ENDITEM", 
-		"Url=/engineer/ticket/ticket.dust", "ENDITEM", 
-		"Url=/engineer/ticket/ticket.js", "ENDITEM", 
-		"Url=/images/custom.png", "ENDITEM", 
-		"Url=/tpl/comment.dust", "ENDITEM", 
 		"LAST");
 
 	web_url("checkLogin", 
@@ -2694,7 +2666,7 @@ vuser_init()
 	                   "LAST");
 
 	web_custom_request("ticket", 
-		"URL=http://{Host}:{Port}/api/ticket/?state=-1,0,1,5&page=0&size=10", 
+		"URL=http://{Host}:{Port}/api/ticket/?state=1&page=0&size=50", 
 		"Method=GET", 
 		"Resource=0", 
 		"RecContentType=application/json", 
@@ -2708,7 +2680,7 @@ vuser_init()
 	
 	return 0;
 }
-# 4 "d:\\\360\340\341\356\362\340\\git xdesk\\xdesk-nt\\uc04_close_task\\\\combined_UC04_close_task.c" 2
+# 4 "d:\\work\\git xdesk 2.0\\xdesk-nt\\uc04_close_task\\\\combined_UC04_close_task.c" 2
 
 # 1 "Action.c" 1
 Action()
@@ -2807,7 +2779,7 @@ Action()
 		"EncType=", 
 		"LAST");
 
-	web_url("learning2.pflb.ru:56902_2", 
+	web_url("/_2", 
 		"URL=http://{Host}:{Port}/", 
 		"Resource=0", 
 		"Referer=http://{Host}:{Port}/", 
@@ -2894,7 +2866,7 @@ Action()
 
 	return 0;
 }
-# 5 "d:\\\360\340\341\356\362\340\\git xdesk\\xdesk-nt\\uc04_close_task\\\\combined_UC04_close_task.c" 2
+# 5 "d:\\work\\git xdesk 2.0\\xdesk-nt\\uc04_close_task\\\\combined_UC04_close_task.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
@@ -2922,5 +2894,5 @@ vuser_end()
 	
 	return 0;
 }
-# 6 "d:\\\360\340\341\356\362\340\\git xdesk\\xdesk-nt\\uc04_close_task\\\\combined_UC04_close_task.c" 2
+# 6 "d:\\work\\git xdesk 2.0\\xdesk-nt\\uc04_close_task\\\\combined_UC04_close_task.c" 2
 

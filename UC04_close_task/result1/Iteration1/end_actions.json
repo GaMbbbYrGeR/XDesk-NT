@@ -6,22 +6,22 @@
                 "stepId": "STEP21",
                 "stepName": "Url: logout",
                 "infFile": "t22.inf",
-                "time": 1575278249170
+                "time": 1575465728668
             },
             {
                 "stepId": "STEP22",
                 "stepName": "Url: login_3",
                 "infFile": "t23.inf",
-                "time": 1575278249223
+                "time": 1575465728721
             }
         ],
         "transactions": [
             {
                 "transactionName": "UC04_TC06_logout",
-                "rawStartTime": 1575278249052,
-                "rawEndTime": 1575278249223,
+                "rawStartTime": 1575465728553,
+                "rawEndTime": 1575465728721,
                 "thinkTime": 0.0,
-                "wastedTime": 0.04653811454772949
+                "wastedTime": 0.04957890510559082
             }
         ]
     }

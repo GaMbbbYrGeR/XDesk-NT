@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--ID:\Работа\Git XDesk\XDesk-NT\UC04_close_task
+-ID:\Work\Git XDesk 2.0\XDesk-NT\UC04_close_task
 -IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ed:\работа\git xdesk\xdesk-nt\uc04_close_task\\logfile.log
-d:\работа\git xdesk\xdesk-nt\uc04_close_task\\combined_UC04_close_task.c
-d:\работа\git xdesk\xdesk-nt\uc04_close_task\\pre_cci.c
+-ed:\work\git xdesk 2.0\xdesk-nt\uc04_close_task\\logfile.log
+d:\work\git xdesk 2.0\xdesk-nt\uc04_close_task\\combined_UC04_close_task.c
+d:\work\git xdesk 2.0\xdesk-nt\uc04_close_task\\pre_cci.c

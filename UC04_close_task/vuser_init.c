@@ -7,15 +7,6 @@ vuser_init()
 		"Referer=", 
 		"Snapshot=t3.inf", 
 		"Mode=HTML", 
-		EXTRARES,
-		"Url=/css/fonts/roboto/Roboto-Light.eot?", ENDITEM, 
-		"Url=/css/fonts/roboto/Roboto-Thin.eot?", ENDITEM, 
-		"Url=/css/fonts/roboto/Roboto-Regular.eot?", ENDITEM, 
-		"Url=/css/fonts/roboto/Roboto-Medium.eot?", ENDITEM, 
-		"Url=/css/fonts/roboto/Roboto-Bold.eot?", ENDITEM, 
-		"Url=/favicon.ico", "Referer=", ENDITEM, 
-		"Url=/tpl/login/login.dust", ENDITEM, 
-		"Url=/images/logo_2.png", ENDITEM, 
 		LAST);
 
 	lr_start_transaction("UC04_TC01_login");
@@ -32,8 +23,6 @@ vuser_init()
 		"Name=rememberMe", "Value=false", ENDITEM, 
 		LAST);
 
-	web_add_cookie("currentUser={login}; DOMAIN={Host}");
-
 	web_url("/", 
 		"URL=http://{Host}:{Port}/", 
 		"Resource=0", 
@@ -41,23 +30,6 @@ vuser_init()
 		"Referer=http://{Host}:{Port}/login", 
 		"Snapshot=t12.inf", 
 		"Mode=HTML", 
-		EXTRARES,
-		"Url=/js/core/jqueryformplugin.js?_=1575134331417", ENDITEM, 
-		"Url=/engineer/wrapper/wrapper.dust", ENDITEM, 
-		"Url=/engineer/wrapper/wrapper.js", ENDITEM, 
-		"Url=/css/fonts/material_icons/MaterialIcons-Regular.woff", ENDITEM, 
-		"Url=/engineer/tickets/tickets.dust", ENDITEM, 
-		"Url=/engineer/tickets/tickets.js", ENDITEM, 
-		"Url=/engineer/tasks/tasks.dust", ENDITEM, 
-		"Url=/engineer/tasks/tasks.js", ENDITEM, 
-		"Url=/engineer/task/task.dust", ENDITEM, 
-		"Url=/engineer/task/task.js", ENDITEM, 
-		"Url=/images/logo-5ka.png", ENDITEM, 
-		"Url=/tpl/support/ticketComment.dust", ENDITEM, 
-		"Url=/engineer/ticket/ticket.dust", ENDITEM, 
-		"Url=/engineer/ticket/ticket.js", ENDITEM, 
-		"Url=/images/custom.png", ENDITEM, 
-		"Url=/tpl/comment.dust", ENDITEM, 
 		LAST);
 
 	web_url("checkLogin", 
@@ -102,7 +74,7 @@ vuser_init()
 	                   LAST);
 
 	web_custom_request("ticket", 
-		"URL=http://{Host}:{Port}/api/ticket/?state=-1,0,1,5&page=0&size=10", 
+		"URL=http://{Host}:{Port}/api/ticket/?state=1&page=0&size=50", 
 		"Method=GET", 
 		"Resource=0", 
 		"RecContentType=application/json", 
