@@ -1,0 +1,228 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/vnd.microsoft.icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/svg+xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/font-woff"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 4,
+    "RecordedBrowser": "Internet Explorer",
+    "RecordingDate": "дек-02-2019",
+    "RecordingDuration": 19594,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1575293483,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 557324,
+    "TotalBytesSent": 4775,
+    "TotalRequests": 15,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "iana.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.0.32.8",
+          "IncludeInScript": true,
+          "Name": "www.iana.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 188,
+              "EventId": 799,
+              "HttpStatus": 200,
+              "Size": 672,
+              "URL": "https://www.iana.org/_img/2011.1/icons/icon_alert.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 187,
+              "EventId": 795,
+              "HttpStatus": 200,
+              "Size": 2282,
+              "URL": "https://www.iana.org/domains/root/manage"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 172,
+              "EventId": 788,
+              "HttpStatus": 200,
+              "Size": 2251,
+              "URL": "https://www.iana.org/domains/root"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/vnd.microsoft.icon",
+              "DownloadTime": 172,
+              "EventId": 785,
+              "HttpStatus": 200,
+              "Size": 7406,
+              "URL": "https://www.iana.org/_img/bookmark_icon.ico"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 188,
+              "EventId": 778,
+              "HttpStatus": 200,
+              "Size": 9235,
+              "URL": "https://www.iana.org/_img/2013.1/iana-logo-header.svg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 187,
+              "EventId": 774,
+              "HttpStatus": 200,
+              "Size": 2447,
+              "URL": "https://www.iana.org/domains"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 328,
+              "EventId": 716,
+              "HttpStatus": 200,
+              "Size": 2302,
+              "URL": "https://www.iana.org/_img/2015.1/iana-logo-homepage.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/font-woff",
+              "DownloadTime": 188,
+              "EventId": 713,
+              "HttpStatus": 200,
+              "Size": 156596,
+              "URL": "https://www.iana.org/_img/2015.1/fonts/NotoSans-Bold.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/font-woff",
+              "DownloadTime": 187,
+              "EventId": 709,
+              "HttpStatus": 200,
+              "Size": 164928,
+              "URL": "https://www.iana.org/_img/2015.1/fonts/NotoSans-Italic.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/font-woff",
+              "DownloadTime": 187,
+              "EventId": 707,
+              "HttpStatus": 200,
+              "Size": 157504,
+              "URL": "https://www.iana.org/_img/2015.1/fonts/NotoSans-Regular.woff"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 188,
+              "EventId": 702,
+              "HttpStatus": 200,
+              "Size": 7659,
+              "URL": "https://www.iana.org/_css/2015.1/print.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 187,
+              "EventId": 693,
+              "HttpStatus": 200,
+              "Size": 68,
+              "URL": "https://www.iana.org/_js/2013.1/iana.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 187,
+              "EventId": 690,
+              "HttpStatus": 200,
+              "Size": 32938,
+              "URL": "https://www.iana.org/_js/2013.1/jquery.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 188,
+              "EventId": 678,
+              "HttpStatus": 200,
+              "Size": 9186,
+              "URL": "https://www.iana.org/_css/2015.1/screen.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 188,
+              "EventId": 673,
+              "HttpStatus": 200,
+              "Size": 1850,
+              "URL": "https://www.iana.org/"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

@@ -1,0 +1,60 @@
+Virtual User Script started at: 04.12.2019 15:13:20
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (рту 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\student\Documents\UXCrowd4\uxcrowd\UC01_Get_Info\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(10): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(10): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_url("www.iana.org") started  	[MsgId: MMSG-26355]
+Action.c(12): Found resource "https://www.iana.org/_css/2015.1/screen.css" in HTML "https://www.iana.org/"  	[MsgId: MMSG-26659]
+Action.c(12): Found resource "https://www.iana.org/_css/2015.1/print.css" in HTML "https://www.iana.org/"  	[MsgId: MMSG-26659]
+Action.c(12): Found resource "https://www.iana.org/_js/2013.1/jquery.js" in HTML "https://www.iana.org/"  	[MsgId: MMSG-26659]
+Action.c(12): Found resource "https://www.iana.org/_js/2013.1/iana.js" in HTML "https://www.iana.org/"  	[MsgId: MMSG-26659]
+Action.c(12): web_url("www.iana.org") was successful, 51701 body bytes, 2757 header bytes  	[MsgId: MMSG-26386]
+Action.c(22): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(22): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(35): web_get_int_property started  	[MsgId: MMSG-26355]
+Action.c(35): web_get_int_property was successful  	[MsgId: MMSG-26392]
+Action.c(37): web_url("Domain Names") started  	[MsgId: MMSG-26355]
+Action.c(37): Resource "https://www.iana.org/_css/2015.1/screen.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(37): Resource "https://www.iana.org/_css/2015.1/print.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(37): Resource "https://www.iana.org/_js/2013.1/jquery.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(37): Resource "https://www.iana.org/_js/2013.1/iana.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(37): Found resource "https://www.iana.org/_img/2013.1/iana-logo-header.svg" in HTML "https://www.iana.org/domains"  	[MsgId: MMSG-26659]
+Action.c(37): Warning -26376: Requested parameter "ParamName=ResponseCode" found in 2 different pages/frames. Use "web_reg_save_param" with more restrictive LB/RB/RelFrameId  	[MsgId: MWAR-26376]
+Action.c(37): Warning -26373: Parameter "ParamName=ResponseCode" saved from a resource (URL="https://www.iana.org/_img/2013.1/iana-logo-header.svg")  	[MsgId: MWAR-26373]
+Action.c(37): web_url("Domain Names") highest severity level was "warning", 11682 body bytes, 1104 header bytes  	[MsgId: MMSG-26388]
+Action.c(47): web_get_int_property started  	[MsgId: MMSG-26355]
+Action.c(47): web_get_int_property was successful  	[MsgId: MMSG-26392]
+Action.c(51): web_get_int_property started  	[MsgId: MMSG-26355]
+Action.c(51): web_get_int_property was successful  	[MsgId: MMSG-26392]
+Action.c(53): web_get_int_property started  	[MsgId: MMSG-26355]
+Action.c(53): web_get_int_property was successful  	[MsgId: MMSG-26392]
+Action.c(55): web_url("The DNS Root Zone") started  	[MsgId: MMSG-26355]
+Action.c(55): Resource "https://www.iana.org/_css/2015.1/screen.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(55): Resource "https://www.iana.org/_css/2015.1/print.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(55): Resource "https://www.iana.org/_js/2013.1/jquery.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(55): Resource "https://www.iana.org/_js/2013.1/iana.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(55): Resource "https://www.iana.org/_img/2013.1/iana-logo-header.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(55): web_url("The DNS Root Zone") was successful, 2251 body bytes, 549 header bytes  	[MsgId: MMSG-26386]
+Action.c(65): web_url("Root zone change requests") started  	[MsgId: MMSG-26355]
+Action.c(65): Resource "https://www.iana.org/_css/2015.1/screen.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(65): Resource "https://www.iana.org/_css/2015.1/print.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(65): Resource "https://www.iana.org/_js/2013.1/jquery.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(65): Resource "https://www.iana.org/_js/2013.1/iana.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(65): Resource "https://www.iana.org/_img/2013.1/iana-logo-header.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(65): web_url("Root zone change requests") was successful, 2282 body bytes, 555 header bytes, 22 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(87): Kuzvecov.K,label=Domain Names,responseCode=105366992,success=false responseTime=366,bytes=12786,sentBytes=574,URL="https://www.iana.org/domains" 1575461602520195000
+
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

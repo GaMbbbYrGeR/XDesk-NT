@@ -1,0 +1,13 @@
+[t2]
+FileName1=t2.htm
+URL1=https://www.iana.org/domains
+Total=2
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_2.xml
+FileName2=t2_iana-logo-header.svg
+URL2=https://www.iana.org/_img/2013.1/iana-logo-header.svg
+[ProtocolInfo]
+ProtocolId=QTWeb

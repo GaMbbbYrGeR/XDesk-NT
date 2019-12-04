@@ -1,0 +1,15 @@
+[t4]
+FileName1=t4.htm
+URL1=https://www.iana.org/domains
+Total=3
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t4_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_4.xml
+FileName2=t4_iana-logo-header.svg
+URL2=https://www.iana.org/_img/2013.1/iana-logo-header.svg
+FileName3=t4_bookmark_icon.html
+URL3=https://www.iana.org/_img/bookmark_icon.ico
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Date: Mon, 02 Dec 2019 13:30:57 GMT
+Server: Apache
+Last-Modified: Thu, 24 May 2018 19:40:12 GMT
+Vary: Accept-Encoding
+Expires: Mon, 02 Dec 2019 14:26:16 GMT
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: origin-when-cross-origin
+Content-Security-Policy: upgrade-insecure-requests
+Age: 318
+Content-Encoding: gzip
+Cache-Control: public, max-age=3600
+Content-Length: 1850
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=48211200; preload
+

@@ -1,0 +1,24 @@
+[t3]
+FileName2=t2_4_2013.UNK
+RawStepEndTime=1575461602739
+FileName5=t1_1_2015.css
+FileName4=t1_2_2013.UNK
+FileName6=t1_0_2015.css
+RequestBodyFile=t3_RequestBody.txt
+RawStepName=The DNS Root Zone
+ContentType=text/html
+URL1=https://www.iana.org/domains/root
+URL2=https://www.iana.org/_img/2013.1/iana-logo-header.svg
+URL3=https://www.iana.org/_js/2013.1/iana.js
+ResponseHeaderFile=t3_ResponseHeader.txt
+URL4=https://www.iana.org/_js/2013.1/jquery.js
+URL5=https://www.iana.org/_css/2015.1/screen.css
+URL6=https://www.iana.org/_css/2015.1/print.css
+SnapshotXmlFile=snapshot_3.xml
+RequestHeaderFile=t3_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1575461602528
+Total=6
+StepName=Url: The DNS Root Zone
+FileName1=t3.html
+FileName3=t1_3_2013.UNK
